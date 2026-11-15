@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "condoclock/records",
+	"title": "Owners' records",
+	"category": "widgets",
+	"icon": "lock",
+	"description": "The association's records, shown only to logged-in owners.",
+	"keywords": [ "condo", "hoa", "owners", "records" ],
+	"textdomain": "condoclock",
+	"supports": { "html": false, "multiple": false },
+	"editorScript": "condoclock-blocks-editor"
+}

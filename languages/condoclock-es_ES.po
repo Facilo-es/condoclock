@@ -1,0 +1,1568 @@
+# Spanish (Spain) translation for CondoClock.
+# Copyright (C) 2026 Facilo
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CondoClock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/condoclock\n"
+"Last-Translator: Facilo <info@facilo.es>\n"
+"Language-Team: Facilo <info@facilo.es>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Facilo\n"
+"X-Domain: condoclock\n"
+
+#. Plugin Name of the plugin
+#: condoclock.php
+msgid "CondoClock – Condo & HOA Records and Meeting Notices"
+msgstr "CondoClock – Registros y avisos de reuniones para condominios y HOA"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: condoclock.php
+msgid "https://facilo.es/"
+msgstr "https://facilo.es/"
+
+#. Description of the plugin
+#: condoclock.php
+msgid "Owners-only records for Florida condos and HOAs: every record in its place, dated, with meeting notices on the front page."
+msgstr "Registros solo para propietarios de condominios y HOA de Florida: cada registro en su lugar y con fecha, y los avisos de reuniones en la página de inicio."
+
+#. Author of the plugin
+#: condoclock.php
+msgid "Facilo"
+msgstr "Facilo"
+
+#: includes/class-admin.php:47
+#: includes/class-admin.php:49
+#: includes/class-admin.php:128
+#: includes/class-admin.php:233
+#: includes/class-admin.php:375
+#: includes/class-records.php:44
+msgid "Records"
+msgstr "Registros"
+
+#: includes/class-admin.php:50
+#: includes/class-admin.php:234
+#: includes/class-admin.php:867
+#: includes/class-blocks.php:280
+#: includes/class-records.php:45
+#: includes/class-rules.php:171
+#: includes/class-setup.php:79
+#: includes/class-setup.php:198
+msgid "Notices"
+msgstr "Avisos"
+
+#: includes/class-admin.php:51
+#: includes/class-admin.php:235
+#: includes/class-admin.php:789
+#: includes/class-admin.php:796
+msgid "Owners"
+msgstr "Propietarios"
+
+#: includes/class-admin.php:58
+#: includes/class-admin.php:246
+#: includes/class-admin.php:1004
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-admin.php:59
+#: includes/class-admin.php:247
+#: includes/class-status.php:128
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-admin.php:60
+#: includes/class-admin.php:248
+#: includes/class-admin.php:1046
+msgid "Help"
+msgstr "Ayuda"
+
+#: includes/class-admin.php:62
+#: includes/class-admin.php:1091
+msgid "Get Pro"
+msgstr "Obtener Pro"
+
+#: includes/class-admin.php:64
+#: includes/class-setup.php:303
+msgid "Set up CondoClock"
+msgstr "Configurar CondoClock"
+
+#: includes/class-admin.php:64
+#: includes/class-admin.php:127
+msgid "Set up"
+msgstr "Configurar"
+
+#: includes/class-admin.php:144
+msgid "CondoClock: your server shows private files to anyone with the link."
+msgstr "CondoClock: tu servidor muestra los archivos privados a cualquiera que tenga el enlace."
+
+#: includes/class-admin.php:146
+msgid "See how to fix it"
+msgstr "Ver cómo solucionarlo"
+
+#: includes/class-admin.php:208
+msgid "All records"
+msgstr "Todos los registros"
+
+#: includes/class-admin.php:254
+msgid "CondoClock screens"
+msgstr "Pantallas de CondoClock"
+
+#. translators: %d: number of records.
+#: includes/class-admin.php:273
+#, php-format
+msgid "%d record posted. Owners can see it now."
+msgid_plural "%d records posted. Owners can see them now."
+msgstr[0] "%d registro publicado. Los propietarios ya pueden verlo."
+msgstr[1] "%d registros publicados. Los propietarios ya pueden verlos."
+
+#: includes/class-admin.php:274
+msgid "Saved. Owners won't see it until you post it."
+msgstr "Guardado. Los propietarios no lo verán hasta que lo publiques."
+
+#: includes/class-admin.php:275
+msgid "File replaced. Owners see the new one, and the old one under \"Earlier versions\"."
+msgstr "Archivo reemplazado. Los propietarios ven el nuevo, y el anterior en \"Versiones anteriores\"."
+
+#: includes/class-admin.php:276
+msgid "Withdrawn. Owners no longer see it."
+msgstr "Retirado. Los propietarios ya no lo ven."
+
+#: includes/class-admin.php:277
+msgid "Moved to the archive. Owners no longer see it."
+msgstr "Archivado. Los propietarios ya no lo ven."
+
+#: includes/class-admin.php:278
+msgid "Deleted."
+msgstr "Eliminado."
+
+#: includes/class-admin.php:279
+msgid "Marked not applicable."
+msgstr "Marcado como no aplica."
+
+#: includes/class-admin.php:280
+msgid "This category counts again."
+msgstr "Esta categoría vuelve a contar."
+
+#: includes/class-admin.php:281
+msgid "Owner added. They'll get an email to set their password."
+msgstr "Propietario añadido. Recibirá un correo para crear su contraseña."
+
+#: includes/class-admin.php:282
+msgid "Done. That user can now see the owners' records."
+msgstr "Listo. Ese usuario ya puede ver los registros de los propietarios."
+
+#: includes/class-admin.php:283
+msgid "Access removed. The user account stays."
+msgstr "Acceso retirado. La cuenta de usuario se mantiene."
+
+#: includes/class-admin.php:284
+msgid "Login email sent again."
+msgstr "Correo de acceso enviado de nuevo."
+
+#: includes/class-admin.php:285
+msgid "Notice saved."
+msgstr "Aviso guardado."
+
+#: includes/class-admin.php:286
+msgid "Notice deleted."
+msgstr "Aviso eliminado."
+
+#: includes/class-admin.php:287
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: includes/class-admin.php:290
+msgid "Add a file or a recording link first."
+msgstr "Primero añade un archivo o un enlace a la grabación."
+
+#: includes/class-admin.php:291
+msgid "Type delete to confirm."
+msgstr "Escribe delete para confirmar."
+
+#: includes/class-admin.php:292
+msgid "Give a reason of up to 200 characters."
+msgstr "Indica un motivo de hasta 200 caracteres."
+
+#: includes/class-admin.php:338
+msgid "HOA"
+msgstr "HOA"
+
+#: includes/class-admin.php:338
+msgid "Condominium"
+msgstr "Condominio"
+
+#. translators: %d: number of units.
+#: includes/class-admin.php:340
+#, php-format
+msgid "%d parcel"
+msgid_plural "%d parcels"
+msgstr[0] "%d parcela"
+msgstr[1] "%d parcelas"
+
+#. translators: %d: number of units.
+#: includes/class-admin.php:340
+#, php-format
+msgid "%d unit"
+msgid_plural "%d units"
+msgstr[0] "%d unidad"
+msgstr[1] "%d unidades"
+
+#. translators: 1: Condominium or HOA, 2: number of units, 3: number of record types, 4: statute reference, 5: rule table date.
+#: includes/class-admin.php:342
+#, php-format
+msgid "%1$s, <b>%2$s</b> · %3$d record types under %4$s · Rules as of %5$s"
+msgstr "%1$s, <b>%2$s</b> · %3$d tipos de registro según %4$s · Reglas vigentes al %5$s"
+
+#. translators: 1: posted, 2: total, 3: not applicable, 4: missing.
+#: includes/class-admin.php:381
+#, php-format
+msgid "%1$d of %2$d posted · %3$d not applicable · %4$d missing"
+msgstr "%1$d de %2$d publicados · %3$d no aplican · %4$d faltan"
+
+#: includes/class-admin.php:399
+#: includes/class-admin.php:421
+#: includes/class-admin.php:514
+msgid "Posted"
+msgstr "Publicado"
+
+#: includes/class-admin.php:400
+msgid "Posted, more due soon"
+msgstr "Publicado, pronto toca más"
+
+#: includes/class-admin.php:401
+#: includes/class-admin.php:420
+#: includes/class-admin.php:516
+msgid "Missing"
+msgstr "Falta"
+
+#: includes/class-admin.php:402
+msgid "Late"
+msgstr "Atrasado"
+
+#: includes/class-admin.php:403
+#: includes/class-admin.php:515
+#: includes/class-admin.php:765
+msgid "Not applicable"
+msgstr "No aplica"
+
+#: includes/class-admin.php:411
+msgid "Start with the documents you already have: the declaration, bylaws, articles and rules. Drag them onto their row."
+msgstr "Empieza con los documentos que ya tienes: la declaración, los estatutos, el acta constitutiva y el reglamento. Arrástralos a su fila."
+
+#: includes/class-admin.php:417
+#: includes/class-blocks.php:157
+msgid "Search records"
+msgstr "Buscar registros"
+
+#: includes/class-admin.php:419
+msgid "All"
+msgstr "Todos"
+
+#: includes/class-admin.php:422
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/class-admin.php:456
+msgid "What's due"
+msgstr "Qué toca publicar"
+
+#: includes/class-admin.php:457
+#: includes/class-admin.php:1094
+msgid "See what's due before it's late, with a clock on every record."
+msgstr "Ve qué toca publicar antes de que se atrase, con un reloj en cada registro."
+
+#: includes/class-admin.php:458
+msgid "See what Pro adds"
+msgstr "Ver qué añade Pro"
+
+#. translators: 1: date, 2: number of files.
+#: includes/class-admin.php:487
+#, php-format
+msgid "Last posted %1$s · %2$d file"
+msgid_plural "Last posted %1$s · %2$d files"
+msgstr[0] "Última publicación: %1$s · %2$d archivo"
+msgstr[1] "Última publicación: %1$s · %2$d archivos"
+
+#: includes/class-admin.php:491
+#: includes/class-admin.php:618
+msgid "Nothing posted yet"
+msgstr "Aún no hay nada publicado"
+
+#: includes/class-admin.php:493
+#: includes/class-admin.php:590
+msgid "Add files"
+msgstr "Añadir archivos"
+
+#: includes/class-admin.php:494
+#: includes/class-admin.php:773
+msgid "Mark not applicable"
+msgstr "Marcar como no aplica"
+
+#: includes/class-admin.php:496
+msgid "View"
+msgstr "Ver"
+
+#: includes/class-admin.php:519
+msgid "Not posted"
+msgstr "Sin publicar"
+
+#: includes/class-admin.php:520
+msgid "Withdrawn"
+msgstr "Retirado"
+
+#: includes/class-admin.php:521
+msgid "Archived"
+msgstr "Archivado"
+
+#: includes/class-admin.php:534
+#: includes/class-blocks.php:228
+msgid "Upcoming meetings"
+msgstr "Próximas reuniones"
+
+#: includes/class-admin.php:536
+#: includes/class-admin.php:883
+#: includes/class-blocks.php:286
+msgid "No meetings scheduled right now."
+msgstr "No hay reuniones programadas por ahora."
+
+#: includes/class-admin.php:548
+#: includes/class-admin.php:931
+msgid "Add a notice"
+msgstr "Añadir un aviso"
+
+#. translators: %s: statute reference.
+#: includes/class-admin.php:574
+#, php-format
+msgid "Statute: %s"
+msgstr "Ley: %s"
+
+#: includes/class-admin.php:583
+msgid "Post a link to each recording, such as a private YouTube or Vimeo link. CondoClock doesn't store video files."
+msgstr "Publica un enlace a cada grabación, por ejemplo un enlace privado de YouTube o Vimeo. CondoClock no guarda archivos de video."
+
+#: includes/class-admin.php:593
+msgid "Drop files here, or choose them"
+msgstr "Suelta los archivos aquí o elígelos"
+
+#. translators: %s: file size, such as 64 MB.
+#: includes/class-admin.php:595
+#, php-format
+msgid "PDF, Word, Excel, images or text. Largest file: %s"
+msgstr "PDF, Word, Excel, imágenes o texto. Tamaño máximo por archivo: %s"
+
+#: includes/class-admin.php:598
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-admin.php:598
+msgid "Leave empty to use each file's name."
+msgstr "Déjalo vacío para usar el nombre de cada archivo."
+
+#: includes/class-admin.php:599
+msgid "Date received or created"
+msgstr "Fecha de recepción o creación"
+
+#: includes/class-admin.php:601
+#: includes/class-admin.php:697
+msgid "Recording link"
+msgstr "Enlace a la grabación"
+
+#: includes/class-admin.php:601
+msgid "Recording link (optional)"
+msgstr "Enlace a la grabación (opcional)"
+
+#: includes/class-admin.php:605
+msgid "Meeting (optional)"
+msgstr "Reunión (opcional)"
+
+#: includes/class-admin.php:605
+msgid "None"
+msgstr "Ninguna"
+
+#: includes/class-admin.php:611
+msgid "Note for owners (optional)"
+msgstr "Nota para los propietarios (opcional)"
+
+#: includes/class-admin.php:612
+#: includes/class-admin.php:654
+#: includes/class-admin.php:729
+msgid "Post to owners"
+msgstr "Publicar para los propietarios"
+
+#: includes/class-admin.php:612
+msgid "Save without posting"
+msgstr "Guardar sin publicar"
+
+#: includes/class-admin.php:616
+msgid "Files"
+msgstr "Archivos"
+
+#: includes/class-admin.php:648
+msgid "Check this file before it goes up"
+msgstr "Revisa este archivo antes de publicarlo"
+
+#: includes/class-admin.php:653
+msgid "I checked this file"
+msgstr "Ya revisé este archivo"
+
+#: includes/class-admin.php:654
+msgid "Not now"
+msgstr "Ahora no"
+
+#. translators: %s: date.
+#: includes/class-admin.php:701
+#, php-format
+msgid "Received %s"
+msgstr "Recibido el %s"
+
+#. translators: %s: date.
+#: includes/class-admin.php:705
+#: includes/class-blocks.php:191
+#: includes/class-blocks.php:210
+#, php-format
+msgid "Posted %s"
+msgstr "Publicado el %s"
+
+#: includes/class-admin.php:715
+#: includes/class-blocks.php:207
+msgid "Earlier versions"
+msgstr "Versiones anteriores"
+
+#: includes/class-admin.php:724
+msgid "Open"
+msgstr "Abrir"
+
+#: includes/class-admin.php:732
+msgid "Withdraw"
+msgstr "Retirar"
+
+#: includes/class-admin.php:742
+msgid "New file"
+msgstr "Archivo nuevo"
+
+#: includes/class-admin.php:743
+msgid "Replace file"
+msgstr "Reemplazar archivo"
+
+#: includes/class-admin.php:745
+#: includes/class-admin.php:752
+#: includes/class-admin.php:906
+msgid "Delete"
+msgstr "Eliminar"
+
+#: includes/class-admin.php:746
+msgid "Delete this record?"
+msgstr "¿Eliminar este registro?"
+
+#: includes/class-admin.php:747
+msgid "The file and its earlier versions are removed for good. To hide it from owners but keep it, use Withdraw instead."
+msgstr "El archivo y sus versiones anteriores se borran para siempre. Para ocultarlo a los propietarios sin perderlo, usa Retirar."
+
+#: includes/class-admin.php:751
+msgid "Type delete to confirm"
+msgstr "Escribe delete para confirmar"
+
+#: includes/class-admin.php:752
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/class-admin.php:766
+msgid "If your association has nothing of this kind, say why. It stops counting as missing."
+msgstr "Si tu asociación no tiene nada de este tipo, explica por qué. Dejará de contar como faltante."
+
+#: includes/class-admin.php:770
+msgid "Reason"
+msgstr "Motivo"
+
+#: includes/class-admin.php:770
+msgid "Up to 200 characters, such as \"No building permits open this year.\""
+msgstr "Hasta 200 caracteres, por ejemplo \"Este año no hay permisos de obra abiertos.\""
+
+#: includes/class-admin.php:772
+msgid "Show reason to owners"
+msgstr "Mostrar el motivo a los propietarios"
+
+#: includes/class-admin.php:778
+msgid "It applies after all"
+msgstr "Sí aplica"
+
+#: includes/class-admin.php:796
+msgid "Owners and association employees who can log in to see the records."
+msgstr "Propietarios y empleados de la asociación que pueden iniciar sesión para ver los registros."
+
+#: includes/class-admin.php:818
+msgid "No owners yet. Add them one by one, or import a list (Pro)."
+msgstr "Aún no hay propietarios. Añádelos uno por uno o importa una lista (Pro)."
+
+#: includes/class-admin.php:820
+#: includes/class-admin.php:844
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/class-admin.php:820
+msgid "Unit or lot"
+msgstr "Unidad o lote"
+
+#: includes/class-admin.php:820
+msgid "Last login"
+msgstr "Último acceso"
+
+#: includes/class-admin.php:820
+msgid "Actions"
+msgstr "Acciones"
+
+#: includes/class-admin.php:824
+msgid "Employee"
+msgstr "Empleado"
+
+#: includes/class-admin.php:826
+msgid "Never"
+msgstr "Nunca"
+
+#: includes/class-admin.php:828
+msgid "Send login again"
+msgstr "Reenviar acceso"
+
+#: includes/class-admin.php:829
+msgid "Remove access"
+msgstr "Quitar acceso"
+
+#: includes/class-admin.php:841
+msgid "Add an owner"
+msgstr "Añadir un propietario"
+
+#: includes/class-admin.php:841
+msgid "They get an email to set their password, then see every posted record."
+msgstr "Recibe un correo para crear su contraseña y después ve todos los registros publicados."
+
+#: includes/class-admin.php:845
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/class-admin.php:846
+#: includes/class-privacy.php:24
+msgid "Unit or lot number"
+msgstr "Número de unidad o lote"
+
+#: includes/class-admin.php:847
+msgid "Add owner"
+msgstr "Añadir propietario"
+
+#: includes/class-admin.php:849
+msgid "Employees"
+msgstr "Empleados"
+
+#: includes/class-admin.php:849
+msgid "Let a user who works for the association see the records. Enter their username or email."
+msgstr "Permite que un usuario que trabaja para la asociación vea los registros. Escribe su nombre de usuario o correo."
+
+#: includes/class-admin.php:852
+msgid "Username or email"
+msgstr "Nombre de usuario o correo"
+
+#: includes/class-admin.php:853
+msgid "Give access"
+msgstr "Dar acceso"
+
+#: includes/class-admin.php:866
+msgid "Everyone can see the Notices page."
+msgstr "Todos pueden ver la página de Avisos."
+
+#: includes/class-admin.php:866
+msgid "Only owners can see the Notices page."
+msgstr "Solo los propietarios pueden ver la página de Avisos."
+
+#: includes/class-admin.php:877
+msgid "Upcoming"
+msgstr "Próximos"
+
+#: includes/class-admin.php:878
+#: includes/class-blocks.php:304
+msgid "Past notices"
+msgstr "Avisos anteriores"
+
+#: includes/class-admin.php:890
+#: includes/class-blocks.php:321
+msgid "Notice"
+msgstr "Aviso"
+
+#: includes/class-admin.php:891
+#: includes/class-blocks.php:322
+msgid "Agenda"
+msgstr "Orden del día"
+
+#: includes/class-admin.php:892
+#: includes/class-admin.php:951
+#: includes/class-blocks.php:323
+msgid "Documents to be voted on"
+msgstr "Documentos a votación"
+
+#: includes/class-admin.php:900
+msgid "Not on the Notices page yet"
+msgstr "Aún no está en la página de Avisos"
+
+#: includes/class-admin.php:903
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/class-admin.php:931
+msgid "Edit notice"
+msgstr "Editar aviso"
+
+#: includes/class-admin.php:938
+msgid "Meeting title"
+msgstr "Título de la reunión"
+
+#: includes/class-admin.php:938
+#: includes/class-rules.php:203
+msgid "Board meeting"
+msgstr "Reunión de la junta directiva"
+
+#: includes/class-admin.php:939
+#: includes/class-setup.php:312
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-admin.php:944
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/class-admin.php:945
+msgid "Time"
+msgstr "Hora"
+
+#: includes/class-admin.php:946
+msgid "Place"
+msgstr "Lugar"
+
+#: includes/class-admin.php:946
+msgid "Clubhouse, 2nd floor"
+msgstr "Casa club, 2.º piso"
+
+#: includes/class-admin.php:947
+msgid "Video link (optional)"
+msgstr "Enlace de video (opcional)"
+
+#: includes/class-admin.php:949
+msgid "Notice file"
+msgstr "Archivo del aviso"
+
+#: includes/class-admin.php:950
+msgid "Agenda file"
+msgstr "Archivo del orden del día"
+
+#. translators: %s: file name.
+#: includes/class-admin.php:957
+#, php-format
+msgid "Now: %s. Choose a file to replace it."
+msgstr "Actual: %s. Elige un archivo para reemplazarlo."
+
+#: includes/class-admin.php:961
+msgid "Save notice"
+msgstr "Guardar aviso"
+
+#: includes/class-admin.php:969
+#: includes/class-setup.php:210
+#: includes/class-status.php:99
+msgid "You are not allowed to do this."
+msgstr "No tienes permiso para hacer esto."
+
+#: includes/class-admin.php:1008
+#: includes/class-setup.php:272
+msgid "Association"
+msgstr "Asociación"
+
+#: includes/class-admin.php:1009
+#: includes/class-setup.php:311
+msgid "Association name"
+msgstr "Nombre de la asociación"
+
+#: includes/class-admin.php:1010
+msgid "Change the association type or size (runs setup again)"
+msgstr "Cambiar el tipo o tamaño de la asociación (vuelve a ejecutar la configuración)"
+
+#: includes/class-admin.php:1012
+msgid "Notices page"
+msgstr "Página de Avisos"
+
+#: includes/class-admin.php:1012
+msgid "Who can see notices"
+msgstr "Quién puede ver los avisos"
+
+#: includes/class-admin.php:1013
+msgid "Public"
+msgstr "Público"
+
+#: includes/class-admin.php:1013
+msgid "Owners only"
+msgstr "Solo propietarios"
+
+#: includes/class-admin.php:1014
+msgid "The statute asks for notices in plain view on the front page or on a page called Notices linked from it."
+msgstr "La ley pide que los avisos estén a la vista en la página de inicio o en una página llamada Avisos enlazada desde ella."
+
+#: includes/class-admin.php:1016
+msgid "Owners' records page"
+msgstr "Página de Registros de los propietarios"
+
+#: includes/class-admin.php:1017
+msgid "Show owners why a category is not applicable"
+msgstr "Mostrar a los propietarios por qué una categoría no aplica"
+
+#: includes/class-admin.php:1019
+#: includes/class-setup.php:274
+msgid "Look"
+msgstr "Aspecto"
+
+#: includes/class-admin.php:1036
+msgid "When you remove the plugin"
+msgstr "Al quitar el plugin"
+
+#: includes/class-admin.php:1037
+msgid "Delete all data when uninstalled"
+msgstr "Eliminar todos los datos al desinstalar"
+
+#: includes/class-admin.php:1037
+msgid "Off by default. When on, deleting the plugin also deletes every record, file and setting."
+msgstr "Desactivado por defecto. Si lo activas, al borrar el plugin también se borran todos los registros, archivos y ajustes."
+
+#: includes/class-admin.php:1038
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: includes/class-admin.php:1049
+msgid "CondoClock helps you keep records organised and on time. It isn't legal advice: your association's attorney decides what your documents and deadlines are."
+msgstr "CondoClock te ayuda a tener los registros ordenados y al día. No es asesoría jurídica: el abogado de tu asociación decide cuáles son tus documentos y plazos."
+
+#: includes/class-admin.php:1050
+msgid "What each category means"
+msgstr "Qué significa cada categoría"
+
+#. translators: %s: statute reference.
+#: includes/class-admin.php:1052
+#, php-format
+msgid "Section %s lists these records. Rules as of the date shown above."
+msgstr "La sección %s enumera estos registros. Reglas vigentes a la fecha indicada arriba."
+
+#: includes/class-admin.php:1058
+msgid "Good to know"
+msgstr "Conviene saber"
+
+#: includes/class-admin.php:1060
+msgid "Owners log in on the Owners' Records page. Add them on the Owners screen and they get an email to set a password."
+msgstr "Los propietarios inician sesión en la página Registros de los propietarios. Añádelos en la pantalla Propietarios y recibirán un correo para crear su contraseña."
+
+#: includes/class-admin.php:1061
+msgid "Files are kept in a private folder and only sent to logged-in owners. The Status screen tests this."
+msgstr "Los archivos se guardan en una carpeta privada y solo se envían a propietarios con sesión iniciada. La pantalla Estado lo comprueba."
+
+#: includes/class-admin.php:1062
+msgid "Replacing a file keeps the old one under \"Earlier versions\", so owners can see what changed."
+msgstr "Al reemplazar un archivo, el anterior queda en \"Versiones anteriores\", así los propietarios ven qué cambió."
+
+#: includes/class-admin.php:1063
+msgid "Withdraw hides a record from owners without deleting it."
+msgstr "Retirar oculta un registro a los propietarios sin eliminarlo."
+
+#: includes/class-admin.php:1064
+msgid "The Notices page lists upcoming meetings, soonest first. Past meetings move to \"Past notices\" after they start."
+msgstr "La página de Avisos muestra las próximas reuniones, primero las más cercanas. Cuando una reunión empieza, pasa a \"Avisos anteriores\"."
+
+#: includes/class-admin.php:1092
+msgid "Stay ahead of every deadline"
+msgstr "Adelántate a cada plazo"
+
+#: includes/class-admin.php:1095
+msgid "Post meeting notices with a countdown, and get reminders until they're up."
+msgstr "Publica los avisos de reunión con cuenta regresiva y recibe recordatorios hasta que estén publicados."
+
+#: includes/class-admin.php:1096
+msgid "Let owners request a login, and approve it in one click."
+msgstr "Deja que los propietarios pidan acceso y apruébalo con un clic."
+
+#: includes/class-admin.php:1097
+msgid "Keep a dated history you can export when someone asks."
+msgstr "Ten un historial con fechas que puedes exportar cuando alguien lo pida."
+
+#: includes/class-admin.php:1098
+msgid "Catch emails, phone numbers and other private details before a file goes up."
+msgstr "Detecta correos, teléfonos y otros datos privados antes de publicar un archivo."
+
+#: includes/class-admin.php:1105
+msgid "USD 149 a year for one association. USD 449 a year for up to 10 (for web designers and managers)."
+msgstr "USD 149 al año para una asociación. USD 449 al año para hasta 10 (para diseñadores web y administradores)."
+
+#: includes/class-admin.php:1106
+msgid "Get CondoClock Pro"
+msgstr "Obtener CondoClock Pro"
+
+#: includes/class-admin.php:1107
+msgid "14-day money-back guarantee."
+msgstr "Garantía de devolución del dinero de 14 días."
+
+#. translators: %d: number of record types missing.
+#: includes/class-admin.php:1128
+#, php-format
+msgid "%d record missing"
+msgid_plural "%d records missing"
+msgstr[0] "Falta %d registro"
+msgstr[1] "Faltan %d registros"
+
+#. translators: %d: days until the meeting.
+#: includes/class-admin.php:1132
+msgid "next meeting today"
+msgstr "próxima reunión hoy"
+
+#. translators: %d: days until the meeting.
+#: includes/class-admin.php:1132
+#, php-format
+msgid "next meeting in %d day"
+msgid_plural "next meeting in %d days"
+msgstr[0] "próxima reunión en %d día"
+msgstr[1] "próxima reunión en %d días"
+
+#: includes/class-admin.php:1134
+msgid "Open records"
+msgstr "Abrir registros"
+
+#: includes/class-blocks.php:46
+msgid "Clean"
+msgstr "Limpio"
+
+#: includes/class-blocks.php:52
+msgid "Classic"
+msgstr "Clásico"
+
+#: includes/class-blocks.php:144
+#: includes/class-files.php:335
+msgid "Owners' records"
+msgstr "Registros de los propietarios"
+
+#: includes/class-blocks.php:147
+msgid "Your account can't open the owners' records yet. Ask the board to give you access."
+msgstr "Tu cuenta aún no puede abrir los registros de los propietarios. Pide a la junta directiva que te dé acceso."
+
+#: includes/class-blocks.php:148
+msgid "Log in to see the association's records."
+msgstr "Inicia sesión para ver los registros de la asociación."
+
+#. translators: %s: the board's reason.
+#: includes/class-blocks.php:164
+#, php-format
+msgid "Not applicable: %s"
+msgstr "No aplica: %s"
+
+#: includes/class-blocks.php:176
+msgid "The board hasn't posted any records yet."
+msgstr "La junta directiva aún no ha publicado registros."
+
+#: includes/class-blocks.php:178
+msgid "No records match your search."
+msgstr "Ningún registro coincide con tu búsqueda."
+
+#: includes/class-blocks.php:194
+msgid "Download"
+msgstr "Descargar"
+
+#: includes/class-blocks.php:196
+msgid "Recording"
+msgstr "Grabación"
+
+#: includes/class-blocks.php:197
+msgid "Watch"
+msgstr "Ver"
+
+#: includes/class-blocks.php:201
+msgid "Watch the recording"
+msgstr "Ver la grabación"
+
+#: includes/class-blocks.php:233
+msgid "All notices"
+msgstr "Todos los avisos"
+
+#. translators: 1: date, 2: time.
+#: includes/class-blocks.php:253
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#. translators: 1: date, 2: time.
+#: includes/class-blocks.php:253
+msgctxt "meeting date"
+msgid "D j M Y"
+msgstr "D j M Y"
+
+#: includes/class-blocks.php:282
+msgid "Log in to see meeting notices."
+msgstr "Inicia sesión para ver los avisos de reuniones."
+
+#: includes/class-blocks.php:296
+msgid "Join online"
+msgstr "Unirse en línea"
+
+#: includes/class-files.php:138
+msgid "This type of file can't be posted. Use PDF, Word (DOCX), Excel (XLSX), JPG, PNG or text."
+msgstr "Este tipo de archivo no se puede publicar. Usa PDF, Word (DOCX), Excel (XLSX), JPG, PNG o texto."
+
+#: includes/class-files.php:143
+msgid "The file could not be saved. Check the uploads folder can be written to."
+msgstr "No se pudo guardar el archivo. Comprueba que se pueda escribir en la carpeta de subidas."
+
+#: includes/class-files.php:334
+msgid "Log in as an owner to open this file. If you were logged in, go back to the records page and open it again."
+msgstr "Inicia sesión como propietario para abrir este archivo. Si ya habías iniciado sesión, vuelve a la página de registros y ábrelo de nuevo."
+
+#: includes/class-files.php:334
+msgid "This file is no longer here."
+msgstr "Este archivo ya no está disponible."
+
+#: includes/class-notices.php:136
+msgid "Enter the meeting date and time."
+msgstr "Escribe la fecha y la hora de la reunión."
+
+#: includes/class-notices.php:142
+msgid "Meeting"
+msgstr "Reunión"
+
+#: includes/class-notices.php:215
+msgid "You don't have permission to manage notices."
+msgstr "No tienes permiso para gestionar avisos."
+
+#: includes/class-owners.php:43
+msgid "Board member (CondoClock)"
+msgstr "Miembro de la junta (CondoClock)"
+
+#: includes/class-owners.php:53
+msgid "Owner (CondoClock)"
+msgstr "Propietario (CondoClock)"
+
+#: includes/class-owners.php:119
+msgid "Enter a valid email address."
+msgstr "Escribe un correo electrónico válido."
+
+#: includes/class-owners.php:122
+msgid "Enter the owner's name."
+msgstr "Escribe el nombre del propietario."
+
+#: includes/class-owners.php:127
+msgid "This email already has access."
+msgstr "Este correo ya tiene acceso."
+
+#. translators: %s: association name.
+#: includes/class-owners.php:204
+#, php-format
+msgid "Your login for %s owners' records"
+msgstr "Tu acceso a los registros de los propietarios de %s"
+
+#. translators: 1: owner's name, 2: association name, 3: set-password link, 4: records page address.
+#: includes/class-owners.php:206
+#, php-format
+msgid "Hello %1$s, your request for access to the owners' records of %2$s was approved. Set your password here: %3$s. After that, you'll find every record at %4$s."
+msgstr "Hola, %1$s: tu solicitud de acceso a los registros de los propietarios de %2$s fue aceptada. Crea tu contraseña aquí: %3$s. Después encontrarás todos los registros en %4$s."
+
+#: includes/class-owners.php:261
+#: includes/class-owners.php:284
+msgid "You don't have permission to manage owners."
+msgstr "No tienes permiso para gestionar propietarios."
+
+#: includes/class-owners.php:297
+msgid "No user has that username or email. Add them in Users first."
+msgstr "Ningún usuario tiene ese nombre o correo. Primero añádelo en Usuarios."
+
+#: includes/class-privacy.php:25
+msgid "Employed by the association"
+msgstr "Empleado de la asociación"
+
+#: includes/class-privacy.php:26
+msgid "Login sent"
+msgstr "Acceso enviado"
+
+#: includes/class-privacy.php:27
+msgid "Last login to owners' records"
+msgstr "Último acceso a los registros de los propietarios"
+
+#: includes/class-privacy.php:28
+msgid "User ID that gave access"
+msgstr "ID del usuario que dio acceso"
+
+#: includes/class-privacy.php:49
+#: includes/class-privacy.php:63
+msgid "CondoClock owner access"
+msgstr "Acceso de propietario de CondoClock"
+
+#: includes/class-privacy.php:87
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/class-privacy.php:87
+msgid "No"
+msgstr "No"
+
+#: includes/class-privacy.php:99
+msgid "Owners' records access"
+msgstr "Acceso a los registros de los propietarios"
+
+#: includes/class-privacy.php:155
+msgid "If you are an owner, the association keeps your name, email address and unit or lot number so you can log in to the owners' records. We record when your login was sent and when you last opened the records."
+msgstr "Si eres propietario, la asociación guarda tu nombre, tu correo electrónico y tu número de unidad o lote para que puedas entrar a los registros de los propietarios. Anotamos cuándo se te envió el acceso y cuándo abriste los registros por última vez."
+
+#: includes/class-privacy.php:156
+msgid "This information stays on this website. It is not shared with the makers of the CondoClock plugin. You can ask the association for a copy of it or to remove it."
+msgstr "Esta información se queda en este sitio web. No se comparte con los creadores del plugin CondoClock. Puedes pedir a la asociación una copia o que la elimine."
+
+#: includes/class-records.php:78
+msgid "Pick a category for this record."
+msgstr "Elige una categoría para este registro."
+
+#: includes/class-records.php:82
+msgid "Enter the date received or created, such as 2027-03-10."
+msgstr "Escribe la fecha de recepción o creación, por ejemplo 2027-03-10."
+
+#: includes/class-records.php:85
+msgid "The date received or created can't be in the future."
+msgstr "La fecha de recepción o creación no puede ser futura."
+
+#: includes/class-records.php:93
+msgid "Meeting recording"
+msgstr "Grabación de la reunión"
+
+#: includes/class-records.php:93
+msgid "Untitled record"
+msgstr "Registro sin título"
+
+#: includes/class-records.php:172
+msgid "Add the file or the recording link before posting."
+msgstr "Añade el archivo o el enlace a la grabación antes de publicar."
+
+#: includes/class-records.php:369
+msgid "Say why this category doesn't apply to your association."
+msgstr "Explica por qué esta categoría no aplica a tu asociación."
+
+#: includes/class-records.php:452
+msgid "You don't have permission to manage records."
+msgstr "No tienes permiso para gestionar registros."
+
+#: includes/class-rules.php:81
+msgid "Declaration of condominium and amendments"
+msgstr "Declaración de condominio y sus enmiendas"
+
+#: includes/class-rules.php:81
+msgid "The document that created the condominium, with every amendment."
+msgstr "El documento que creó el condominio, con todas sus enmiendas."
+
+#: includes/class-rules.php:82
+#: includes/class-rules.php:102
+msgid "Bylaws and amendments"
+msgstr "Estatutos y sus enmiendas"
+
+#: includes/class-rules.php:82
+#: includes/class-rules.php:102
+msgid "How the association is run: officers, meetings and voting."
+msgstr "Cómo funciona la asociación: directivos, reuniones y votaciones."
+
+#: includes/class-rules.php:83
+#: includes/class-rules.php:101
+msgid "Articles of incorporation and amendments"
+msgstr "Acta constitutiva y sus enmiendas"
+
+#: includes/class-rules.php:83
+#: includes/class-rules.php:101
+msgid "The papers filed with the state that created the association."
+msgstr "Los documentos presentados ante el estado con los que se creó la asociación."
+
+#: includes/class-rules.php:84
+#: includes/class-rules.php:104
+msgid "Rules of the association"
+msgstr "Reglamento de la asociación"
+
+#: includes/class-rules.php:84
+msgid "The house rules owners and tenants follow."
+msgstr "Las normas de convivencia que siguen propietarios e inquilinos."
+
+#: includes/class-rules.php:85
+msgid "Approved board minutes, last 12 months"
+msgstr "Actas de la junta directiva ya aprobadas, últimos 12 meses"
+
+#: includes/class-rules.php:85
+msgid "Minutes the board approved in the last 12 months."
+msgstr "Actas que la junta aprobó en los últimos 12 meses."
+
+#: includes/class-rules.php:86
+msgid "Video recordings of video-conference meetings, last 12 months"
+msgstr "Grabaciones de reuniones por videoconferencia, últimos 12 meses"
+
+#: includes/class-rules.php:86
+msgid "Links to recordings of meetings held by video, last 12 months."
+msgstr "Enlaces a las grabaciones de reuniones por video de los últimos 12 meses."
+
+#: includes/class-rules.php:87
+#: includes/class-rules.php:105
+msgid "Current contracts and bids received in the past year"
+msgstr "Contratos vigentes y ofertas recibidas en el último año"
+
+#: includes/class-rules.php:87
+#: includes/class-rules.php:105
+msgid "Every current contract, and bids received in the last 12 months."
+msgstr "Todos los contratos vigentes y las ofertas recibidas en los últimos 12 meses."
+
+#: includes/class-rules.php:88
+#: includes/class-rules.php:106
+msgid "Annual budget and proposed budget"
+msgstr "Presupuesto anual y presupuesto propuesto"
+
+#: includes/class-rules.php:88
+#: includes/class-rules.php:106
+msgid "This year's budget and any proposed budget."
+msgstr "El presupuesto de este año y cualquier presupuesto propuesto."
+
+#: includes/class-rules.php:89
+msgid "Annual financial report and monthly statements for meetings"
+msgstr "Informe financiero anual y estados mensuales para reuniones"
+
+#: includes/class-rules.php:89
+msgid "The yearly financial report, and statements shown at meetings."
+msgstr "El informe financiero del año y los estados presentados en las reuniones."
+
+#: includes/class-rules.php:90
+#: includes/class-rules.php:109
+msgid "Director certifications"
+msgstr "Declaraciones escritas de los directores"
+
+#: includes/class-rules.php:90
+#: includes/class-rules.php:109
+msgid "Each director's written certification after election."
+msgstr "La declaración escrita que firma cada director tras su elección."
+
+#: includes/class-rules.php:91
+#: includes/class-rules.php:110
+msgid "Contracts with directors, officers or their businesses"
+msgstr "Contratos con directores, directivos o sus empresas"
+
+#: includes/class-rules.php:91
+#: includes/class-rules.php:110
+msgid "Any contract with a director, an officer or their business."
+msgstr "Cualquier contrato con un director, un directivo o su empresa."
+
+#: includes/class-rules.php:92
+#: includes/class-rules.php:111
+msgid "Conflict-of-interest contracts"
+msgstr "Contratos con conflicto de intereses"
+
+#: includes/class-rules.php:92
+#: includes/class-rules.php:111
+msgid "Contracts where a director has a conflict of interest."
+msgstr "Contratos en los que un director tiene un conflicto de intereses."
+
+#: includes/class-rules.php:93
+msgid "Owners' meeting notices and agendas"
+msgstr "Avisos y órdenes del día de asambleas de propietarios"
+
+#: includes/class-rules.php:93
+msgid "Notices and agendas for owners' meetings."
+msgstr "Avisos y órdenes del día de las asambleas de propietarios."
+
+#: includes/class-rules.php:94
+msgid "Board meeting notices, agendas and documents"
+msgstr "Avisos, órdenes del día y documentos de reuniones de la junta"
+
+#: includes/class-rules.php:94
+msgid "Notices, agendas and documents for board meetings."
+msgstr "Avisos, órdenes del día y documentos de las reuniones de la junta directiva."
+
+#: includes/class-rules.php:95
+msgid "Inspection reports (milestone, structural, life safety)"
+msgstr "Informes de inspección (milestone, estructural, seguridad de vida)"
+
+#: includes/class-rules.php:95
+msgid "Milestone, structural and life safety inspection reports."
+msgstr "Informes de inspección milestone, estructural y de seguridad de vida."
+
+#: includes/class-rules.php:96
+msgid "Structural integrity reserve study (latest)"
+msgstr "Estudio de reservas de integridad estructural (el más reciente)"
+
+#: includes/class-rules.php:96
+msgid "The latest structural integrity reserve study."
+msgstr "El estudio de reservas de integridad estructural más reciente."
+
+#: includes/class-rules.php:97
+msgid "Building permits for ongoing or planned work"
+msgstr "Permisos de obra para trabajos en curso o previstos"
+
+#: includes/class-rules.php:97
+msgid "Permits for work that's going on or planned."
+msgstr "Permisos para obras en curso o previstas."
+
+#: includes/class-rules.php:98
+msgid "Affidavits required by Chapter 718"
+msgstr "Declaraciones juradas que pide el Capítulo 718"
+
+#: includes/class-rules.php:98
+msgid "Affidavits that Chapter 718 asks the association to keep."
+msgstr "Declaraciones juradas que el Capítulo 718 pide conservar a la asociación."
+
+#: includes/class-rules.php:103
+msgid "Declaration of covenants and amendments"
+msgstr "Declaración de convenios y sus enmiendas"
+
+#: includes/class-rules.php:103
+msgid "The covenants that bind every parcel, with every amendment."
+msgstr "Los convenios que rigen cada parcela, con todas sus enmiendas."
+
+#: includes/class-rules.php:104
+msgid "The rules members follow. You can also post the record-keeping rules here."
+msgstr "Las normas que siguen los miembros. Aquí también puedes publicar las normas para llevar los registros."
+
+#: includes/class-rules.php:107
+msgid "Annual financial report"
+msgstr "Informe financiero anual"
+
+#: includes/class-rules.php:107
+msgid "The yearly financial report."
+msgstr "El informe financiero del año."
+
+#: includes/class-rules.php:108
+msgid "Insurance policies"
+msgstr "Pólizas de seguro"
+
+#: includes/class-rules.php:108
+msgid "Every current insurance policy the association holds."
+msgstr "Todas las pólizas de seguro vigentes de la asociación."
+
+#: includes/class-rules.php:112
+msgid "Members' meeting notices and agendas"
+msgstr "Avisos y órdenes del día de asambleas de miembros"
+
+#: includes/class-rules.php:112
+msgid "Notices and agendas for members' meetings."
+msgstr "Avisos y órdenes del día de las asambleas de miembros."
+
+#: includes/class-rules.php:113
+msgid "Board meeting notices and agendas"
+msgstr "Avisos y órdenes del día de reuniones de la junta"
+
+#: includes/class-rules.php:113
+msgid "Notices and agendas for board meetings."
+msgstr "Avisos y órdenes del día de las reuniones de la junta directiva."
+
+#: includes/class-rules.php:168
+msgid "Governing documents"
+msgstr "Documentos rectores"
+
+#: includes/class-rules.php:169
+msgid "Meetings and minutes"
+msgstr "Reuniones y actas"
+
+#: includes/class-rules.php:170
+msgid "Money and contracts"
+msgstr "Dinero y contratos"
+
+#: includes/class-rules.php:172
+msgid "Building safety"
+msgstr "Seguridad del edificio"
+
+#: includes/class-rules.php:204
+msgid "Board meeting on special assessments or use rules"
+msgstr "Reunión de la junta sobre cuotas extraordinarias o normas de uso"
+
+#: includes/class-rules.php:204
+msgid "Board meeting on special assessments or unit-use rules"
+msgstr "Reunión de la junta sobre cuotas extraordinarias o normas de uso de las unidades"
+
+#: includes/class-rules.php:205
+msgid "Emergency board meeting"
+msgstr "Reunión de emergencia de la junta"
+
+#: includes/class-rules.php:206
+msgid "Annual owners' meeting"
+msgstr "Asamblea anual de propietarios"
+
+#: includes/class-rules.php:207
+msgid "Other owners' meeting"
+msgstr "Otra asamblea de propietarios"
+
+#: includes/class-rules.php:208
+msgid "Budget meeting"
+msgstr "Reunión de presupuesto"
+
+#: includes/class-rules.php:209
+msgid "Committee meeting"
+msgstr "Reunión de comité"
+
+#: includes/class-rules.php:210
+msgid "Members' meeting"
+msgstr "Asamblea de miembros"
+
+#: includes/class-setup.php:42
+msgid "Associations like yours must keep these records on a website or app, with a page only owners can open. CondoClock gives you both."
+msgstr "Las asociaciones como la tuya deben tener estos registros en un sitio web o una app, con una página que solo puedan abrir los propietarios. CondoClock te da ambas cosas."
+
+#: includes/class-setup.php:43
+msgid "Your association is under the size where the website rule applies. Many smaller associations use CondoClock anyway, so owners always know where to look."
+msgstr "Tu asociación es más pequeña que el tamaño a partir del cual se aplica la norma del sitio web. Muchas asociaciones pequeñas usan CondoClock de todos modos, para que los propietarios siempre sepan dónde buscar."
+
+#: includes/class-setup.php:78
+msgid "Owners' Records"
+msgstr "Registros de los propietarios"
+
+#. translators: %s: the page's current title.
+#: includes/class-setup.php:202
+#, php-format
+msgid "Your notices page is now called \"%s\". Owners look for \"Notices\", so we suggest keeping that title."
+msgstr "Tu página de avisos ahora se llama \"%s\". Los propietarios buscan \"Avisos\", así que te sugerimos mantener ese título."
+
+#: includes/class-setup.php:220
+msgid "Please fill in the name and a number of units between 1 and 100,000."
+msgstr "Escribe el nombre y un número de unidades entre 1 y 100.000."
+
+#: includes/class-setup.php:273
+msgid "Pages"
+msgstr "Páginas"
+
+#: includes/class-setup.php:310
+msgid "Let's set up your association"
+msgstr "Configuremos tu asociación"
+
+#: includes/class-setup.php:313
+msgid "Condominium association (Chapter 718)"
+msgstr "Asociación de condominio (Capítulo 718)"
+
+#: includes/class-setup.php:314
+msgid "Homeowners' association (Chapter 720)"
+msgstr "Asociación de propietarios de viviendas (Capítulo 720)"
+
+#: includes/class-setup.php:315
+msgid "Number of units"
+msgstr "Número de unidades"
+
+#: includes/class-setup.php:315
+msgid "Number of parcels"
+msgstr "Número de parcelas"
+
+#: includes/class-setup.php:316
+msgid "Does the condominium contain timeshare units?"
+msgstr "¿El condominio tiene unidades de tiempo compartido?"
+
+#: includes/class-setup.php:323
+msgid "Next"
+msgstr "Siguiente"
+
+#: includes/class-setup.php:326
+msgid "Your owners' pages"
+msgstr "Tus páginas para propietarios"
+
+#: includes/class-setup.php:327
+msgid "We'll create two pages: Owners' Records, which only owners can open, and Notices, for upcoming meetings."
+msgstr "Crearemos dos páginas: Registros de los propietarios, que solo pueden abrir los propietarios, y Avisos, para las próximas reuniones."
+
+#: includes/class-setup.php:330
+msgid "Your pages already exist, so we will keep them and make no copies."
+msgstr "Tus páginas ya existen, así que las conservaremos y no crearemos copias."
+
+#: includes/class-setup.php:332
+msgid "Add Notices to the main menu"
+msgstr "Añadir Avisos al menú principal"
+
+#: includes/class-setup.php:333
+#: includes/class-setup.php:379
+msgid "Back"
+msgstr "Atrás"
+
+#: includes/class-setup.php:333
+msgid "Create my pages"
+msgstr "Crear mis páginas"
+
+#. translators: 1: link to Owners' Records page, 2: link to Notices page.
+#: includes/class-setup.php:341
+#, php-format
+msgid "Your pages are ready: %1$s and %2$s."
+msgstr "Tus páginas están listas: %1$s y %2$s."
+
+#: includes/class-setup.php:346
+msgid "Notices is in your main menu."
+msgstr "Avisos ya está en tu menú principal."
+
+#. translators: %s: Notices page address.
+#: includes/class-setup.php:353
+#, php-format
+msgid "Your theme has no menu yet. To link Notices from your front page, open Appearance, then Menus or Editor, add a menu and put the Notices page in it, or add a button or link to %s on your front page."
+msgstr "Tu tema aún no tiene menú. Para enlazar Avisos desde tu página de inicio, abre Apariencia y luego Menús o Editor, crea un menú y añade la página Avisos, o pon un botón o enlace a %s en tu página de inicio."
+
+#: includes/class-setup.php:360
+msgid "Pick a look"
+msgstr "Elige un aspecto"
+
+#: includes/class-setup.php:370
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/class-setup.php:379
+msgid "Go to my records"
+msgstr "Ir a mis registros"
+
+#: includes/class-status.php:117
+msgid "Your server shows private files to anyone with the link"
+msgstr "Tu servidor muestra los archivos privados a cualquiera que tenga el enlace"
+
+#: includes/class-status.php:118
+msgid "Your host ignores the protection file CondoClock puts in the folder, which is common on nginx. Ask your host to add this rule to the site's nginx settings, then run the test again:"
+msgstr "Tu proveedor de hosting ignora el archivo de protección que CondoClock pone en la carpeta, algo habitual con nginx. Pide a tu proveedor que añada esta regla a la configuración de nginx del sitio y luego repite la prueba:"
+
+#: includes/class-status.php:128
+msgid "Checks that keep owners' records private and on time."
+msgstr "Comprobaciones que mantienen los registros de los propietarios privados y al día."
+
+#. translators: %s: date and time of the test.
+#. translators: %d: HTTP status code, 0 when the site could not reach itself.
+#: includes/class-status.php:136
+#: includes/class-status.php:139
+#: includes/class-status.php:141
+#: includes/class-status.php:144
+msgid "Private files"
+msgstr "Archivos privados"
+
+#: includes/class-status.php:136
+msgid "Not tested yet."
+msgstr "Aún sin probar."
+
+#. translators: %s: date and time of the test.
+#: includes/class-status.php:139
+#, php-format
+msgid "Protected. A visitor without a login gets \"not allowed\". Tested %s."
+msgstr "Protegido. Un visitante sin sesión iniciada recibe \"no permitido\". Probado el %s."
+
+#: includes/class-status.php:141
+msgid "Open to anyone with the link. See the steps above."
+msgstr "Abierto a cualquiera que tenga el enlace. Sigue los pasos de arriba."
+
+#. translators: %d: HTTP status code, 0 when the site could not reach itself.
+#: includes/class-status.php:144
+#, php-format
+msgid "The site could not test itself (answer %d). Files are still only sent to logged-in owners through CondoClock."
+msgstr "El sitio no pudo probarse a sí mismo (respuesta %d). Aun así, CondoClock solo envía los archivos a propietarios con sesión iniciada."
+
+#. translators: %s: date of the rule table.
+#: includes/class-status.php:148
+msgid "Florida rules"
+msgstr "Reglas de Florida"
+
+#. translators: %s: date of the rule table.
+#: includes/class-status.php:148
+#, php-format
+msgid "Rules as of %s"
+msgstr "Reglas vigentes al %s"
+
+#. translators: 1: CondoClock version, 2: WordPress version, 3: PHP version.
+#: includes/class-status.php:150
+msgid "Versions"
+msgstr "Versiones"
+
+#. translators: 1: CondoClock version, 2: WordPress version, 3: PHP version.
+#: includes/class-status.php:150
+#, php-format
+msgid "CondoClock %1$s · WordPress %2$s · PHP %3$s"
+msgstr "CondoClock %1$s · WordPress %2$s · PHP %3$s"
+
+#. translators: %s: date and time of the next run.
+#: includes/class-status.php:156
+#: includes/class-status.php:158
+msgid "Daily check"
+msgstr "Revisión diaria"
+
+#. translators: %s: date and time of the next run.
+#: includes/class-status.php:156
+#, php-format
+msgid "Working. Next run %s."
+msgstr "Funciona. Próxima ejecución: %s."
+
+#. translators: %s: date and time of the next run.
+#: includes/class-status.php:156
+msgid "Working."
+msgstr "Funciona."
+
+#: includes/class-status.php:158
+msgid "WordPress's scheduled tasks are switched off on this site. Ask your host to add this line to the server's cron:"
+msgstr "Las tareas programadas de WordPress están desactivadas en este sitio. Pide a tu proveedor de hosting que añada esta línea al cron del servidor:"
+
+#: includes/class-status.php:158
+msgid "The daily check is running late, usually because the site gets few visits. Ask your host to add this line to the server's cron:"
+msgstr "La revisión diaria va con retraso, normalmente porque el sitio recibe pocas visitas. Pide a tu proveedor de hosting que añada esta línea al cron del servidor:"
+
+#: includes/class-status.php:172
+msgid "Test file protection again"
+msgstr "Volver a probar la protección de archivos"
+
+#. translators: date format for posted dates, see https://www.php.net/manual/datetime.format.php
+#: includes/functions.php:78
+msgctxt "short date"
+msgid "j M Y"
+msgstr "j M Y"
+
+#. translators: date and time format for deadlines, see https://www.php.net/manual/datetime.format.php
+#: includes/functions.php:89
+msgctxt "date and time"
+msgid "D j M Y, g:i a"
+msgstr "D j M Y, g:i a"
+
+#: blocks/notices/block.json
+msgctxt "block title"
+msgid "Meeting notices"
+msgstr "Avisos de reuniones"
+
+#: blocks/notices/block.json
+msgctxt "block description"
+msgid "Upcoming meetings with their notice, agenda and documents, then past notices."
+msgstr "Las próximas reuniones con su aviso, orden del día y documentos, seguidas de los avisos anteriores."
+
+#: blocks/notices/block.json
+#: blocks/records/block.json
+msgctxt "block keyword"
+msgid "condo"
+msgstr "condominio"
+
+#: blocks/notices/block.json
+#: blocks/records/block.json
+msgctxt "block keyword"
+msgid "hoa"
+msgstr "asociación"
+
+#: blocks/notices/block.json
+msgctxt "block keyword"
+msgid "meeting"
+msgstr "reunión"
+
+#: blocks/notices/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "aviso"
+
+#: blocks/notices/block.json
+msgctxt "block keyword"
+msgid "agenda"
+msgstr "orden del día"
+
+#: blocks/records/block.json
+msgctxt "block title"
+msgid "Owners' records"
+msgstr "Registros de los propietarios"
+
+#: blocks/records/block.json
+msgctxt "block description"
+msgid "The association's records, shown only to logged-in owners."
+msgstr "Los registros de la asociación, visibles solo para propietarios con sesión iniciada."
+
+#: blocks/records/block.json
+msgctxt "block keyword"
+msgid "owners"
+msgstr "propietarios"
+
+#: blocks/records/block.json
+
+msgctxt "block keyword"
+msgid "records"
+msgstr "registros"

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "condoclock/notices",
+	"title": "Meeting notices",
+	"category": "widgets",
+	"icon": "calendar-alt",
+	"description": "Upcoming meetings with their notice, agenda and documents, then past notices.",
+	"keywords": [ "condo", "hoa", "meeting", "notice", "agenda" ],
+	"textdomain": "condoclock",
+	"supports": { "html": false, "multiple": false },
+	"editorScript": "condoclock-blocks-editor"
+}

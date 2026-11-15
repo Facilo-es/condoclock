@@ -1,0 +1,1568 @@
+# Haitian Creole translation for CondoClock.
+# Copyright (C) 2026 Facilo
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CondoClock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/condoclock\n"
+"Last-Translator: Facilo <info@facilo.es>\n"
+"Language-Team: Facilo <info@facilo.es>\n"
+"Language: hat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Facilo\n"
+"X-Domain: condoclock\n"
+
+#. Plugin Name of the plugin
+#: condoclock.php
+msgid "CondoClock – Condo & HOA Records and Meeting Notices"
+msgstr "CondoClock – Dosye ak avi reyinyon pou kondo ak HOA"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: condoclock.php
+msgid "https://facilo.es/"
+msgstr "https://facilo.es/"
+
+#. Description of the plugin
+#: condoclock.php
+msgid "Owners-only records for Florida condos and HOAs: every record in its place, dated, with meeting notices on the front page."
+msgstr "Dosye pou pwopriyetè sèlman nan kondo ak HOA Florid yo: chak dosye nan plas li, ak dat li, epi avi reyinyon yo sou paj dakèy la."
+
+#. Author of the plugin
+#: condoclock.php
+msgid "Facilo"
+msgstr "Facilo"
+
+#: includes/class-admin.php:47
+#: includes/class-admin.php:49
+#: includes/class-admin.php:128
+#: includes/class-admin.php:233
+#: includes/class-admin.php:375
+#: includes/class-records.php:44
+msgid "Records"
+msgstr "Dosye"
+
+#: includes/class-admin.php:50
+#: includes/class-admin.php:234
+#: includes/class-admin.php:867
+#: includes/class-blocks.php:280
+#: includes/class-records.php:45
+#: includes/class-rules.php:171
+#: includes/class-setup.php:79
+#: includes/class-setup.php:198
+msgid "Notices"
+msgstr "Avi"
+
+#: includes/class-admin.php:51
+#: includes/class-admin.php:235
+#: includes/class-admin.php:789
+#: includes/class-admin.php:796
+msgid "Owners"
+msgstr "Pwopriyetè"
+
+#: includes/class-admin.php:58
+#: includes/class-admin.php:246
+#: includes/class-admin.php:1004
+msgid "Settings"
+msgstr "Paramèt"
+
+#: includes/class-admin.php:59
+#: includes/class-admin.php:247
+#: includes/class-status.php:128
+msgid "Status"
+msgstr "Eta"
+
+#: includes/class-admin.php:60
+#: includes/class-admin.php:248
+#: includes/class-admin.php:1046
+msgid "Help"
+msgstr "Èd"
+
+#: includes/class-admin.php:62
+#: includes/class-admin.php:1091
+msgid "Get Pro"
+msgstr "Pran Pro"
+
+#: includes/class-admin.php:64
+#: includes/class-setup.php:303
+msgid "Set up CondoClock"
+msgstr "Konfigire CondoClock"
+
+#: includes/class-admin.php:64
+#: includes/class-admin.php:127
+msgid "Set up"
+msgstr "Konfigire"
+
+#: includes/class-admin.php:144
+msgid "CondoClock: your server shows private files to anyone with the link."
+msgstr "CondoClock: sèvè ou a montre fichye prive yo bay nenpòt moun ki gen lyen an."
+
+#: includes/class-admin.php:146
+msgid "See how to fix it"
+msgstr "Gade kijan pou ranje l"
+
+#: includes/class-admin.php:208
+msgid "All records"
+msgstr "Tout dosye yo"
+
+#: includes/class-admin.php:254
+msgid "CondoClock screens"
+msgstr "Ekran CondoClock yo"
+
+#. translators: %d: number of records.
+#: includes/class-admin.php:273
+#, php-format
+msgid "%d record posted. Owners can see it now."
+msgid_plural "%d records posted. Owners can see them now."
+msgstr[0] "%d dosye pibliye. Pwopriyetè yo ka wè l kounye a."
+msgstr[1] "%d dosye pibliye. Pwopriyetè yo ka wè yo kounye a."
+
+#: includes/class-admin.php:274
+msgid "Saved. Owners won't see it until you post it."
+msgstr "Anrejistre. Pwopriyetè yo p ap wè l jiskaske ou pibliye l."
+
+#: includes/class-admin.php:275
+msgid "File replaced. Owners see the new one, and the old one under \"Earlier versions\"."
+msgstr "Fichye a ranplase. Pwopriyetè yo wè nouvo a, epi ansyen an anba \"Ansyen vèsyon\"."
+
+#: includes/class-admin.php:276
+msgid "Withdrawn. Owners no longer see it."
+msgstr "Retire. Pwopriyetè yo pa wè l ankò."
+
+#: includes/class-admin.php:277
+msgid "Moved to the archive. Owners no longer see it."
+msgstr "Mete nan achiv. Pwopriyetè yo pa wè l ankò."
+
+#: includes/class-admin.php:278
+msgid "Deleted."
+msgstr "Efase."
+
+#: includes/class-admin.php:279
+msgid "Marked not applicable."
+msgstr "Make kòm pa aplikab."
+
+#: includes/class-admin.php:280
+msgid "This category counts again."
+msgstr "Kategori sa a konte ankò."
+
+#: includes/class-admin.php:281
+msgid "Owner added. They'll get an email to set their password."
+msgstr "Pwopriyetè a ajoute. L ap resevwa yon imel pou l kreye modpas li."
+
+#: includes/class-admin.php:282
+msgid "Done. That user can now see the owners' records."
+msgstr "Fini. Itilizatè sa a ka wè Dosye pwopriyetè yo kounye a."
+
+#: includes/class-admin.php:283
+msgid "Access removed. The user account stays."
+msgstr "Aksè a retire. Kont itilizatè a rete."
+
+#: includes/class-admin.php:284
+msgid "Login email sent again."
+msgstr "Imel koneksyon an voye ankò."
+
+#: includes/class-admin.php:285
+msgid "Notice saved."
+msgstr "Avi a anrejistre."
+
+#: includes/class-admin.php:286
+msgid "Notice deleted."
+msgstr "Avi a efase."
+
+#: includes/class-admin.php:287
+msgid "Settings saved."
+msgstr "Paramèt yo anrejistre."
+
+#: includes/class-admin.php:290
+msgid "Add a file or a recording link first."
+msgstr "Ajoute yon fichye oswa yon lyen anrejistreman anvan."
+
+#: includes/class-admin.php:291
+msgid "Type delete to confirm."
+msgstr "Tape delete pou konfime."
+
+#: includes/class-admin.php:292
+msgid "Give a reason of up to 200 characters."
+msgstr "Bay yon rezon ki pa depase 200 karaktè."
+
+#: includes/class-admin.php:338
+msgid "HOA"
+msgstr "HOA"
+
+#: includes/class-admin.php:338
+msgid "Condominium"
+msgstr "Kondominyòm"
+
+#. translators: %d: number of units.
+#: includes/class-admin.php:340
+#, php-format
+msgid "%d parcel"
+msgid_plural "%d parcels"
+msgstr[0] "%d parsèl"
+msgstr[1] "%d parsèl"
+
+#. translators: %d: number of units.
+#: includes/class-admin.php:340
+#, php-format
+msgid "%d unit"
+msgid_plural "%d units"
+msgstr[0] "%d inite"
+msgstr[1] "%d inite"
+
+#. translators: 1: Condominium or HOA, 2: number of units, 3: number of record types, 4: statute reference, 5: rule table date.
+#: includes/class-admin.php:342
+#, php-format
+msgid "%1$s, <b>%2$s</b> · %3$d record types under %4$s · Rules as of %5$s"
+msgstr "%1$s, <b>%2$s</b> · %3$d kalite dosye dapre %4$s · Règ yo jan yo ye nan dat %5$s"
+
+#. translators: 1: posted, 2: total, 3: not applicable, 4: missing.
+#: includes/class-admin.php:381
+#, php-format
+msgid "%1$d of %2$d posted · %3$d not applicable · %4$d missing"
+msgstr "%1$d sou %2$d pibliye · %3$d pa aplikab · %4$d ki manke"
+
+#: includes/class-admin.php:399
+#: includes/class-admin.php:421
+#: includes/class-admin.php:514
+msgid "Posted"
+msgstr "Pibliye"
+
+#: includes/class-admin.php:400
+msgid "Posted, more due soon"
+msgstr "Pibliye, gen lòt ki pou vini byento"
+
+#: includes/class-admin.php:401
+#: includes/class-admin.php:420
+#: includes/class-admin.php:516
+msgid "Missing"
+msgstr "Manke"
+
+#: includes/class-admin.php:402
+msgid "Late"
+msgstr "An reta"
+
+#: includes/class-admin.php:403
+#: includes/class-admin.php:515
+#: includes/class-admin.php:765
+msgid "Not applicable"
+msgstr "Pa aplikab"
+
+#: includes/class-admin.php:411
+msgid "Start with the documents you already have: the declaration, bylaws, articles and rules. Drag them onto their row."
+msgstr "Kòmanse ak dokiman ou deja genyen yo: deklarasyon an, règleman entèn yo, atik enkòporasyon yo ak règ yo. Trennen yo mete sou liy pa yo."
+
+#: includes/class-admin.php:417
+#: includes/class-blocks.php:157
+msgid "Search records"
+msgstr "Chèche nan dosye yo"
+
+#: includes/class-admin.php:419
+msgid "All"
+msgstr "Tout"
+
+#: includes/class-admin.php:422
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/class-admin.php:456
+msgid "What's due"
+msgstr "Sa ki pou fèt"
+
+#: includes/class-admin.php:457
+#: includes/class-admin.php:1094
+msgid "See what's due before it's late, with a clock on every record."
+msgstr "Wè sa ki pou fèt anvan li an reta, ak yon revèy sou chak dosye."
+
+#: includes/class-admin.php:458
+msgid "See what Pro adds"
+msgstr "Gade sa Pro ajoute"
+
+#. translators: 1: date, 2: number of files.
+#: includes/class-admin.php:487
+#, php-format
+msgid "Last posted %1$s · %2$d file"
+msgid_plural "Last posted %1$s · %2$d files"
+msgstr[0] "Dènye piblikasyon %1$s · %2$d fichye"
+msgstr[1] "Dènye piblikasyon %1$s · %2$d fichye"
+
+#: includes/class-admin.php:491
+#: includes/class-admin.php:618
+msgid "Nothing posted yet"
+msgstr "Poko gen anyen ki pibliye"
+
+#: includes/class-admin.php:493
+#: includes/class-admin.php:590
+msgid "Add files"
+msgstr "Ajoute fichye"
+
+#: includes/class-admin.php:494
+#: includes/class-admin.php:773
+msgid "Mark not applicable"
+msgstr "Make kòm pa aplikab"
+
+#: includes/class-admin.php:496
+msgid "View"
+msgstr "Gade"
+
+#: includes/class-admin.php:519
+msgid "Not posted"
+msgstr "Pa pibliye"
+
+#: includes/class-admin.php:520
+msgid "Withdrawn"
+msgstr "Retire"
+
+#: includes/class-admin.php:521
+msgid "Archived"
+msgstr "Nan achiv"
+
+#: includes/class-admin.php:534
+#: includes/class-blocks.php:228
+msgid "Upcoming meetings"
+msgstr "Reyinyon k ap vini yo"
+
+#: includes/class-admin.php:536
+#: includes/class-admin.php:883
+#: includes/class-blocks.php:286
+msgid "No meetings scheduled right now."
+msgstr "Pa gen reyinyon ki pwograme pou kounye a."
+
+#: includes/class-admin.php:548
+#: includes/class-admin.php:931
+msgid "Add a notice"
+msgstr "Ajoute yon avi"
+
+#. translators: %s: statute reference.
+#: includes/class-admin.php:574
+#, php-format
+msgid "Statute: %s"
+msgstr "Lwa: %s"
+
+#: includes/class-admin.php:583
+msgid "Post a link to each recording, such as a private YouTube or Vimeo link. CondoClock doesn't store video files."
+msgstr "Pibliye yon lyen pou chak anrejistreman, tankou yon lyen YouTube oswa Vimeo prive. CondoClock pa estoke fichye videyo."
+
+#: includes/class-admin.php:593
+msgid "Drop files here, or choose them"
+msgstr "Lage fichye yo la a, oswa chwazi yo"
+
+#. translators: %s: file size, such as 64 MB.
+#: includes/class-admin.php:595
+#, php-format
+msgid "PDF, Word, Excel, images or text. Largest file: %s"
+msgstr "PDF, Word, Excel, imaj oswa tèks. Pi gwo fichye: %s"
+
+#: includes/class-admin.php:598
+msgid "Title"
+msgstr "Tit"
+
+#: includes/class-admin.php:598
+msgid "Leave empty to use each file's name."
+msgstr "Kite l vid pou itilize non chak fichye."
+
+#: includes/class-admin.php:599
+msgid "Date received or created"
+msgstr "Dat li resevwa oswa kreye"
+
+#: includes/class-admin.php:601
+#: includes/class-admin.php:697
+msgid "Recording link"
+msgstr "Lyen anrejistreman"
+
+#: includes/class-admin.php:601
+msgid "Recording link (optional)"
+msgstr "Lyen anrejistreman (si ou vle)"
+
+#: includes/class-admin.php:605
+msgid "Meeting (optional)"
+msgstr "Reyinyon (si ou vle)"
+
+#: includes/class-admin.php:605
+msgid "None"
+msgstr "Okenn"
+
+#: includes/class-admin.php:611
+msgid "Note for owners (optional)"
+msgstr "Nòt pou pwopriyetè yo (si ou vle)"
+
+#: includes/class-admin.php:612
+#: includes/class-admin.php:654
+#: includes/class-admin.php:729
+msgid "Post to owners"
+msgstr "Pibliye pou pwopriyetè yo"
+
+#: includes/class-admin.php:612
+msgid "Save without posting"
+msgstr "Anrejistre san pibliye"
+
+#: includes/class-admin.php:616
+msgid "Files"
+msgstr "Fichye"
+
+#: includes/class-admin.php:648
+msgid "Check this file before it goes up"
+msgstr "Verifye fichye sa a anvan li monte"
+
+#: includes/class-admin.php:653
+msgid "I checked this file"
+msgstr "Mwen verifye fichye sa a"
+
+#: includes/class-admin.php:654
+msgid "Not now"
+msgstr "Pa kounye a"
+
+#. translators: %s: date.
+#: includes/class-admin.php:701
+#, php-format
+msgid "Received %s"
+msgstr "Resevwa %s"
+
+#. translators: %s: date.
+#: includes/class-admin.php:705
+#: includes/class-blocks.php:191
+#: includes/class-blocks.php:210
+#, php-format
+msgid "Posted %s"
+msgstr "Pibliye %s"
+
+#: includes/class-admin.php:715
+#: includes/class-blocks.php:207
+msgid "Earlier versions"
+msgstr "Ansyen vèsyon"
+
+#: includes/class-admin.php:724
+msgid "Open"
+msgstr "Louvri"
+
+#: includes/class-admin.php:732
+msgid "Withdraw"
+msgstr "Retire"
+
+#: includes/class-admin.php:742
+msgid "New file"
+msgstr "Nouvo fichye"
+
+#: includes/class-admin.php:743
+msgid "Replace file"
+msgstr "Ranplase fichye a"
+
+#: includes/class-admin.php:745
+#: includes/class-admin.php:752
+#: includes/class-admin.php:906
+msgid "Delete"
+msgstr "Efase"
+
+#: includes/class-admin.php:746
+msgid "Delete this record?"
+msgstr "Efase dosye sa a?"
+
+#: includes/class-admin.php:747
+msgid "The file and its earlier versions are removed for good. To hide it from owners but keep it, use Withdraw instead."
+msgstr "Fichye a ak ansyen vèsyon li yo ap disparèt pou tout tan. Pou kache l pou pwopriyetè yo men kenbe l, sèvi ak Retire pito."
+
+#: includes/class-admin.php:751
+msgid "Type delete to confirm"
+msgstr "Tape delete pou konfime"
+
+#: includes/class-admin.php:752
+msgid "Cancel"
+msgstr "Anile"
+
+#: includes/class-admin.php:766
+msgid "If your association has nothing of this kind, say why. It stops counting as missing."
+msgstr "Si asosyasyon ou a pa gen anyen konsa, di poukisa. Li p ap konte kòm sa ki manke ankò."
+
+#: includes/class-admin.php:770
+msgid "Reason"
+msgstr "Rezon"
+
+#: includes/class-admin.php:770
+msgid "Up to 200 characters, such as \"No building permits open this year.\""
+msgstr "Jiska 200 karaktè, tankou \"Pa gen pèmi konstriksyon ouvè ane sa a.\""
+
+#: includes/class-admin.php:772
+msgid "Show reason to owners"
+msgstr "Montre pwopriyetè yo rezon an"
+
+#: includes/class-admin.php:778
+msgid "It applies after all"
+msgstr "Li aplikab kanmenm"
+
+#: includes/class-admin.php:796
+msgid "Owners and association employees who can log in to see the records."
+msgstr "Pwopriyetè ak anplwaye asosyasyon an ki ka konekte pou wè dosye yo."
+
+#: includes/class-admin.php:818
+msgid "No owners yet. Add them one by one, or import a list (Pro)."
+msgstr "Poko gen pwopriyetè. Ajoute yo youn pa youn, oswa enpòte yon lis (Pro)."
+
+#: includes/class-admin.php:820
+#: includes/class-admin.php:844
+msgid "Name"
+msgstr "Non"
+
+#: includes/class-admin.php:820
+msgid "Unit or lot"
+msgstr "Inite oswa lo"
+
+#: includes/class-admin.php:820
+msgid "Last login"
+msgstr "Dènye koneksyon"
+
+#: includes/class-admin.php:820
+msgid "Actions"
+msgstr "Aksyon"
+
+#: includes/class-admin.php:824
+msgid "Employee"
+msgstr "Anplwaye"
+
+#: includes/class-admin.php:826
+msgid "Never"
+msgstr "Janm"
+
+#: includes/class-admin.php:828
+msgid "Send login again"
+msgstr "Voye koneksyon an ankò"
+
+#: includes/class-admin.php:829
+msgid "Remove access"
+msgstr "Retire aksè"
+
+#: includes/class-admin.php:841
+msgid "Add an owner"
+msgstr "Ajoute yon pwopriyetè"
+
+#: includes/class-admin.php:841
+msgid "They get an email to set their password, then see every posted record."
+msgstr "Li resevwa yon imel pou l kreye modpas li, apre sa li wè tout dosye ki pibliye yo."
+
+#: includes/class-admin.php:845
+msgid "Email"
+msgstr "Imel"
+
+#: includes/class-admin.php:846
+#: includes/class-privacy.php:24
+msgid "Unit or lot number"
+msgstr "Nimewo inite oswa lo"
+
+#: includes/class-admin.php:847
+msgid "Add owner"
+msgstr "Ajoute pwopriyetè"
+
+#: includes/class-admin.php:849
+msgid "Employees"
+msgstr "Anplwaye"
+
+#: includes/class-admin.php:849
+msgid "Let a user who works for the association see the records. Enter their username or email."
+msgstr "Kite yon itilizatè ki travay pou asosyasyon an wè dosye yo. Antre non itilizatè li oswa imel li."
+
+#: includes/class-admin.php:852
+msgid "Username or email"
+msgstr "Non itilizatè oswa imel"
+
+#: includes/class-admin.php:853
+msgid "Give access"
+msgstr "Bay aksè"
+
+#: includes/class-admin.php:866
+msgid "Everyone can see the Notices page."
+msgstr "Tout moun ka wè paj Avi a."
+
+#: includes/class-admin.php:866
+msgid "Only owners can see the Notices page."
+msgstr "Se pwopriyetè yo sèlman ki ka wè paj Avi a."
+
+#: includes/class-admin.php:877
+msgid "Upcoming"
+msgstr "K ap vini"
+
+#: includes/class-admin.php:878
+#: includes/class-blocks.php:304
+msgid "Past notices"
+msgstr "Ansyen avi"
+
+#: includes/class-admin.php:890
+#: includes/class-blocks.php:321
+msgid "Notice"
+msgstr "Avi"
+
+#: includes/class-admin.php:891
+#: includes/class-blocks.php:322
+msgid "Agenda"
+msgstr "Lòd dijou"
+
+#: includes/class-admin.php:892
+#: includes/class-admin.php:951
+#: includes/class-blocks.php:323
+msgid "Documents to be voted on"
+msgstr "Dokiman pou vote"
+
+#: includes/class-admin.php:900
+msgid "Not on the Notices page yet"
+msgstr "Poko sou paj Avi a"
+
+#: includes/class-admin.php:903
+msgid "Edit"
+msgstr "Modifye"
+
+#: includes/class-admin.php:931
+msgid "Edit notice"
+msgstr "Modifye avi a"
+
+#: includes/class-admin.php:938
+msgid "Meeting title"
+msgstr "Tit reyinyon an"
+
+#: includes/class-admin.php:938
+#: includes/class-rules.php:203
+msgid "Board meeting"
+msgstr "Reyinyon konsèy administrasyon"
+
+#: includes/class-admin.php:939
+#: includes/class-setup.php:312
+msgid "Type"
+msgstr "Kalite"
+
+#: includes/class-admin.php:944
+msgid "Date"
+msgstr "Dat"
+
+#: includes/class-admin.php:945
+msgid "Time"
+msgstr "Lè"
+
+#: includes/class-admin.php:946
+msgid "Place"
+msgstr "Kote"
+
+#: includes/class-admin.php:946
+msgid "Clubhouse, 2nd floor"
+msgstr "Clubhouse, 2yèm etaj"
+
+#: includes/class-admin.php:947
+msgid "Video link (optional)"
+msgstr "Lyen videyo (si ou vle)"
+
+#: includes/class-admin.php:949
+msgid "Notice file"
+msgstr "Fichye avi a"
+
+#: includes/class-admin.php:950
+msgid "Agenda file"
+msgstr "Fichye lòd dijou a"
+
+#. translators: %s: file name.
+#: includes/class-admin.php:957
+#, php-format
+msgid "Now: %s. Choose a file to replace it."
+msgstr "Kounye a: %s. Chwazi yon fichye pou ranplase l."
+
+#: includes/class-admin.php:961
+msgid "Save notice"
+msgstr "Anrejistre avi a"
+
+#: includes/class-admin.php:969
+#: includes/class-setup.php:210
+#: includes/class-status.php:99
+msgid "You are not allowed to do this."
+msgstr "Ou pa gen dwa fè sa."
+
+#: includes/class-admin.php:1008
+#: includes/class-setup.php:272
+msgid "Association"
+msgstr "Asosyasyon"
+
+#: includes/class-admin.php:1009
+#: includes/class-setup.php:311
+msgid "Association name"
+msgstr "Non asosyasyon an"
+
+#: includes/class-admin.php:1010
+msgid "Change the association type or size (runs setup again)"
+msgstr "Chanje kalite oswa gwosè asosyasyon an (refè konfigirasyon an)"
+
+#: includes/class-admin.php:1012
+msgid "Notices page"
+msgstr "Paj Avi"
+
+#: includes/class-admin.php:1012
+msgid "Who can see notices"
+msgstr "Ki moun ki ka wè avi yo"
+
+#: includes/class-admin.php:1013
+msgid "Public"
+msgstr "Piblik"
+
+#: includes/class-admin.php:1013
+msgid "Owners only"
+msgstr "Pwopriyetè sèlman"
+
+#: includes/class-admin.php:1014
+msgid "The statute asks for notices in plain view on the front page or on a page called Notices linked from it."
+msgstr "Lwa a mande pou avi yo parèt klè sou paj dakèy la oswa sou yon paj ki rele Avi ki gen lyen sou paj dakèy la."
+
+#: includes/class-admin.php:1016
+msgid "Owners' records page"
+msgstr "Paj Dosye pwopriyetè yo"
+
+#: includes/class-admin.php:1017
+msgid "Show owners why a category is not applicable"
+msgstr "Montre pwopriyetè yo poukisa yon kategori pa aplikab"
+
+#: includes/class-admin.php:1019
+#: includes/class-setup.php:274
+msgid "Look"
+msgstr "Aparans"
+
+#: includes/class-admin.php:1036
+msgid "When you remove the plugin"
+msgstr "Lè ou retire plugin nan"
+
+#: includes/class-admin.php:1037
+msgid "Delete all data when uninstalled"
+msgstr "Efase tout done yo lè w dezenstale l"
+
+#: includes/class-admin.php:1037
+msgid "Off by default. When on, deleting the plugin also deletes every record, file and setting."
+msgstr "Etenn pa defo. Lè li limen, efase plugin nan efase tout dosye, fichye ak paramèt yo tou."
+
+#: includes/class-admin.php:1038
+msgid "Save settings"
+msgstr "Anrejistre paramèt yo"
+
+#: includes/class-admin.php:1049
+msgid "CondoClock helps you keep records organised and on time. It isn't legal advice: your association's attorney decides what your documents and deadlines are."
+msgstr "CondoClock ede w kenbe dosye yo byen ranje e alè. Se pa yon konsèy jiridik: se avoka asosyasyon ou a ki deside ki dokiman ak ki dat limit ou genyen."
+
+#: includes/class-admin.php:1050
+msgid "What each category means"
+msgstr "Sa chak kategori vle di"
+
+#. translators: %s: statute reference.
+#: includes/class-admin.php:1052
+#, php-format
+msgid "Section %s lists these records. Rules as of the date shown above."
+msgstr "Seksyon %s bay lis dosye sa yo. Règ yo jan yo ye nan dat ki parèt anwo a."
+
+#: includes/class-admin.php:1058
+msgid "Good to know"
+msgstr "Bon pou konnen"
+
+#: includes/class-admin.php:1060
+msgid "Owners log in on the Owners' Records page. Add them on the Owners screen and they get an email to set a password."
+msgstr "Pwopriyetè yo konekte sou paj Dosye pwopriyetè yo. Ajoute yo nan ekran Pwopriyetè a epi y ap resevwa yon imel pou kreye yon modpas."
+
+#: includes/class-admin.php:1061
+msgid "Files are kept in a private folder and only sent to logged-in owners. The Status screen tests this."
+msgstr "Fichye yo rete nan yon katab prive epi se sèlman pwopriyetè ki konekte ki resevwa yo. Ekran Eta a teste sa."
+
+#: includes/class-admin.php:1062
+msgid "Replacing a file keeps the old one under \"Earlier versions\", so owners can see what changed."
+msgstr "Lè ou ranplase yon fichye, ansyen an rete anba \"Ansyen vèsyon\", konsa pwopriyetè yo ka wè sa ki chanje."
+
+#: includes/class-admin.php:1063
+msgid "Withdraw hides a record from owners without deleting it."
+msgstr "Retire kache yon dosye pou pwopriyetè yo san li pa efase l."
+
+#: includes/class-admin.php:1064
+msgid "The Notices page lists upcoming meetings, soonest first. Past meetings move to \"Past notices\" after they start."
+msgstr "Paj Avi a bay lis reyinyon k ap vini yo, sa ki pi pre a an premye. Lè yon reyinyon kòmanse, li pase nan \"Ansyen avi\"."
+
+#: includes/class-admin.php:1092
+msgid "Stay ahead of every deadline"
+msgstr "Rete devan chak dat limit"
+
+#: includes/class-admin.php:1095
+msgid "Post meeting notices with a countdown, and get reminders until they're up."
+msgstr "Pibliye avi reyinyon yo ak yon konte a rebou, epi resevwa rapèl jiskaske yo pibliye."
+
+#: includes/class-admin.php:1096
+msgid "Let owners request a login, and approve it in one click."
+msgstr "Kite pwopriyetè yo mande yon koneksyon, epi aksepte l nan yon sèl klik."
+
+#: includes/class-admin.php:1097
+msgid "Keep a dated history you can export when someone asks."
+msgstr "Kenbe yon istwa ak dat ou ka ekspòte lè yon moun mande l."
+
+#: includes/class-admin.php:1098
+msgid "Catch emails, phone numbers and other private details before a file goes up."
+msgstr "Jwenn imel, nimewo telefòn ak lòt enfòmasyon prive anvan yon fichye monte."
+
+#: includes/class-admin.php:1105
+msgid "USD 149 a year for one association. USD 449 a year for up to 10 (for web designers and managers)."
+msgstr "USD 149 pa ane pou yon asosyasyon. USD 449 pa ane pou jiska 10 (pou designer sit entènèt ak jeran)."
+
+#: includes/class-admin.php:1106
+msgid "Get CondoClock Pro"
+msgstr "Pran CondoClock Pro"
+
+#: includes/class-admin.php:1107
+msgid "14-day money-back guarantee."
+msgstr "Garanti ranbousman nan 14 jou."
+
+#. translators: %d: number of record types missing.
+#: includes/class-admin.php:1128
+#, php-format
+msgid "%d record missing"
+msgid_plural "%d records missing"
+msgstr[0] "%d dosye ki manke"
+msgstr[1] "%d dosye ki manke"
+
+#. translators: %d: days until the meeting.
+#: includes/class-admin.php:1132
+msgid "next meeting today"
+msgstr "pwochen reyinyon an jodi a"
+
+#. translators: %d: days until the meeting.
+#: includes/class-admin.php:1132
+#, php-format
+msgid "next meeting in %d day"
+msgid_plural "next meeting in %d days"
+msgstr[0] "pwochen reyinyon an nan %d jou"
+msgstr[1] "pwochen reyinyon an nan %d jou"
+
+#: includes/class-admin.php:1134
+msgid "Open records"
+msgstr "Louvri dosye yo"
+
+#: includes/class-blocks.php:46
+msgid "Clean"
+msgstr "Senp"
+
+#: includes/class-blocks.php:52
+msgid "Classic"
+msgstr "Klasik"
+
+#: includes/class-blocks.php:144
+#: includes/class-files.php:335
+msgid "Owners' records"
+msgstr "Dosye pwopriyetè yo"
+
+#: includes/class-blocks.php:147
+msgid "Your account can't open the owners' records yet. Ask the board to give you access."
+msgstr "Kont ou a poko ka louvri Dosye pwopriyetè yo. Mande konsèy administrasyon an pou ba ou aksè."
+
+#: includes/class-blocks.php:148
+msgid "Log in to see the association's records."
+msgstr "Konekte pou wè dosye asosyasyon an."
+
+#. translators: %s: the board's reason.
+#: includes/class-blocks.php:164
+#, php-format
+msgid "Not applicable: %s"
+msgstr "Pa aplikab: %s"
+
+#: includes/class-blocks.php:176
+msgid "The board hasn't posted any records yet."
+msgstr "Konsèy administrasyon an poko pibliye okenn dosye."
+
+#: includes/class-blocks.php:178
+msgid "No records match your search."
+msgstr "Pa gen dosye ki koresponn ak rechèch ou a."
+
+#: includes/class-blocks.php:194
+msgid "Download"
+msgstr "Telechaje"
+
+#: includes/class-blocks.php:196
+msgid "Recording"
+msgstr "Anrejistreman"
+
+#: includes/class-blocks.php:197
+msgid "Watch"
+msgstr "Gade"
+
+#: includes/class-blocks.php:201
+msgid "Watch the recording"
+msgstr "Gade anrejistreman an"
+
+#: includes/class-blocks.php:233
+msgid "All notices"
+msgstr "Tout avi yo"
+
+#. translators: 1: date, 2: time.
+#: includes/class-blocks.php:253
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#. translators: 1: date, 2: time.
+#: includes/class-blocks.php:253
+msgctxt "meeting date"
+msgid "D j M Y"
+msgstr "D j M Y"
+
+#: includes/class-blocks.php:282
+msgid "Log in to see meeting notices."
+msgstr "Konekte pou wè avi reyinyon yo."
+
+#: includes/class-blocks.php:296
+msgid "Join online"
+msgstr "Patisipe sou entènèt"
+
+#: includes/class-files.php:138
+msgid "This type of file can't be posted. Use PDF, Word (DOCX), Excel (XLSX), JPG, PNG or text."
+msgstr "Ou pa ka pibliye kalite fichye sa a. Sèvi ak PDF, Word (DOCX), Excel (XLSX), JPG, PNG oswa tèks."
+
+#: includes/class-files.php:143
+msgid "The file could not be saved. Check the uploads folder can be written to."
+msgstr "Fichye a pa t ka anrejistre. Verifye si katab uploads la aksepte ekriti."
+
+#: includes/class-files.php:334
+msgid "Log in as an owner to open this file. If you were logged in, go back to the records page and open it again."
+msgstr "Konekte kòm pwopriyetè pou louvri fichye sa a. Si ou te deja konekte, retounen sou paj dosye yo epi louvri l ankò."
+
+#: includes/class-files.php:334
+msgid "This file is no longer here."
+msgstr "Fichye sa a pa la ankò."
+
+#: includes/class-notices.php:136
+msgid "Enter the meeting date and time."
+msgstr "Antre dat ak lè reyinyon an."
+
+#: includes/class-notices.php:142
+msgid "Meeting"
+msgstr "Reyinyon"
+
+#: includes/class-notices.php:215
+msgid "You don't have permission to manage notices."
+msgstr "Ou pa gen pèmisyon pou jere avi yo."
+
+#: includes/class-owners.php:43
+msgid "Board member (CondoClock)"
+msgstr "Manm konsèy administrasyon (CondoClock)"
+
+#: includes/class-owners.php:53
+msgid "Owner (CondoClock)"
+msgstr "Pwopriyetè (CondoClock)"
+
+#: includes/class-owners.php:119
+msgid "Enter a valid email address."
+msgstr "Antre yon adrès imel ki valab."
+
+#: includes/class-owners.php:122
+msgid "Enter the owner's name."
+msgstr "Antre non pwopriyetè a."
+
+#: includes/class-owners.php:127
+msgid "This email already has access."
+msgstr "Imel sa a gen aksè deja."
+
+#. translators: %s: association name.
+#: includes/class-owners.php:204
+#, php-format
+msgid "Your login for %s owners' records"
+msgstr "Koneksyon ou pou Dosye pwopriyetè yo nan %s"
+
+#. translators: 1: owner's name, 2: association name, 3: set-password link, 4: records page address.
+#: includes/class-owners.php:206
+#, php-format
+msgid "Hello %1$s, your request for access to the owners' records of %2$s was approved. Set your password here: %3$s. After that, you'll find every record at %4$s."
+msgstr "Bonjou %1$s, yo aksepte demann ou pou gen aksè nan Dosye pwopriyetè yo nan %2$s. Kreye modpas ou isit la: %3$s. Apre sa, w ap jwenn tout dosye yo nan %4$s."
+
+#: includes/class-owners.php:261
+#: includes/class-owners.php:284
+msgid "You don't have permission to manage owners."
+msgstr "Ou pa gen pèmisyon pou jere pwopriyetè yo."
+
+#: includes/class-owners.php:297
+msgid "No user has that username or email. Add them in Users first."
+msgstr "Pa gen okenn itilizatè ki gen non oswa imel sa a. Ajoute l nan Itilizatè anvan."
+
+#: includes/class-privacy.php:25
+msgid "Employed by the association"
+msgstr "Anplwaye asosyasyon an"
+
+#: includes/class-privacy.php:26
+msgid "Login sent"
+msgstr "Koneksyon voye"
+
+#: includes/class-privacy.php:27
+msgid "Last login to owners' records"
+msgstr "Dènye koneksyon nan Dosye pwopriyetè yo"
+
+#: includes/class-privacy.php:28
+msgid "User ID that gave access"
+msgstr "ID itilizatè ki bay aksè a"
+
+#: includes/class-privacy.php:49
+#: includes/class-privacy.php:63
+msgid "CondoClock owner access"
+msgstr "Aksè pwopriyetè CondoClock"
+
+#: includes/class-privacy.php:87
+msgid "Yes"
+msgstr "Wi"
+
+#: includes/class-privacy.php:87
+msgid "No"
+msgstr "Non"
+
+#: includes/class-privacy.php:99
+msgid "Owners' records access"
+msgstr "Aksè nan Dosye pwopriyetè yo"
+
+#: includes/class-privacy.php:155
+msgid "If you are an owner, the association keeps your name, email address and unit or lot number so you can log in to the owners' records. We record when your login was sent and when you last opened the records."
+msgstr "Si ou se pwopriyetè, asosyasyon an kenbe non ou, adrès imel ou ak nimewo inite oswa lo ou pou ou ka konekte nan Dosye pwopriyetè yo. Nou note ki lè yo te voye koneksyon ou ak ki dènye fwa ou te louvri dosye yo."
+
+#: includes/class-privacy.php:156
+msgid "This information stays on this website. It is not shared with the makers of the CondoClock plugin. You can ask the association for a copy of it or to remove it."
+msgstr "Enfòmasyon sa yo rete sou sit entènèt sa a. Yo pa pataje yo ak moun ki fè plugin CondoClock la. Ou ka mande asosyasyon an yon kopi oswa pou l efase yo."
+
+#: includes/class-records.php:78
+msgid "Pick a category for this record."
+msgstr "Chwazi yon kategori pou dosye sa a."
+
+#: includes/class-records.php:82
+msgid "Enter the date received or created, such as 2027-03-10."
+msgstr "Antre dat li resevwa oswa kreye, tankou 2027-03-10."
+
+#: includes/class-records.php:85
+msgid "The date received or created can't be in the future."
+msgstr "Dat li resevwa oswa kreye a pa ka nan lavni."
+
+#: includes/class-records.php:93
+msgid "Meeting recording"
+msgstr "Anrejistreman reyinyon"
+
+#: includes/class-records.php:93
+msgid "Untitled record"
+msgstr "Dosye san tit"
+
+#: includes/class-records.php:172
+msgid "Add the file or the recording link before posting."
+msgstr "Ajoute fichye a oswa lyen anrejistreman an anvan ou pibliye."
+
+#: includes/class-records.php:369
+msgid "Say why this category doesn't apply to your association."
+msgstr "Di poukisa kategori sa a pa aplikab pou asosyasyon ou a."
+
+#: includes/class-records.php:452
+msgid "You don't have permission to manage records."
+msgstr "Ou pa gen pèmisyon pou jere dosye yo."
+
+#: includes/class-rules.php:81
+msgid "Declaration of condominium and amendments"
+msgstr "Deklarasyon kondominyòm ak amannman yo"
+
+#: includes/class-rules.php:81
+msgid "The document that created the condominium, with every amendment."
+msgstr "Dokiman ki te kreye kondominyòm nan, ak tout amannman li yo."
+
+#: includes/class-rules.php:82
+#: includes/class-rules.php:102
+msgid "Bylaws and amendments"
+msgstr "Règleman entèn ak amannman yo"
+
+#: includes/class-rules.php:82
+#: includes/class-rules.php:102
+msgid "How the association is run: officers, meetings and voting."
+msgstr "Kijan asosyasyon an fonksyone: ofisye, reyinyon ak vòt."
+
+#: includes/class-rules.php:83
+#: includes/class-rules.php:101
+msgid "Articles of incorporation and amendments"
+msgstr "Atik enkòporasyon ak amannman yo"
+
+#: includes/class-rules.php:83
+#: includes/class-rules.php:101
+msgid "The papers filed with the state that created the association."
+msgstr "Papye yo te depoze bay eta a pou kreye asosyasyon an."
+
+#: includes/class-rules.php:84
+#: includes/class-rules.php:104
+msgid "Rules of the association"
+msgstr "Règ asosyasyon an"
+
+#: includes/class-rules.php:84
+msgid "The house rules owners and tenants follow."
+msgstr "Règ lakay pwopriyetè ak lokatè yo swiv."
+
+#: includes/class-rules.php:85
+msgid "Approved board minutes, last 12 months"
+msgstr "Pwosè-vèbal konsèy administrasyon ki deja adopte, 12 dènye mwa"
+
+#: includes/class-rules.php:85
+msgid "Minutes the board approved in the last 12 months."
+msgstr "Pwosè-vèbal konsèy la te adopte nan 12 dènye mwa yo."
+
+#: includes/class-rules.php:86
+msgid "Video recordings of video-conference meetings, last 12 months"
+msgstr "Anrejistreman videyo reyinyon ki fèt pa videyokonferans, 12 dènye mwa"
+
+#: includes/class-rules.php:86
+msgid "Links to recordings of meetings held by video, last 12 months."
+msgstr "Lyen anrejistreman reyinyon ki fèt pa videyo, 12 dènye mwa."
+
+#: includes/class-rules.php:87
+#: includes/class-rules.php:105
+msgid "Current contracts and bids received in the past year"
+msgstr "Kontra an kou ak òf yo resevwa nan dènye ane a"
+
+#: includes/class-rules.php:87
+#: includes/class-rules.php:105
+msgid "Every current contract, and bids received in the last 12 months."
+msgstr "Tout kontra an kou, ak òf yo resevwa nan 12 dènye mwa yo."
+
+#: includes/class-rules.php:88
+#: includes/class-rules.php:106
+msgid "Annual budget and proposed budget"
+msgstr "Bidjè anyèl ak bidjè ki pwopoze"
+
+#: includes/class-rules.php:88
+#: includes/class-rules.php:106
+msgid "This year's budget and any proposed budget."
+msgstr "Bidjè ane sa a ak nenpòt bidjè ki pwopoze."
+
+#: includes/class-rules.php:89
+msgid "Annual financial report and monthly statements for meetings"
+msgstr "Rapò finansye anyèl ak rapò chak mwa pou reyinyon yo"
+
+#: includes/class-rules.php:89
+msgid "The yearly financial report, and statements shown at meetings."
+msgstr "Rapò finansye ane a, ak rapò yo montre nan reyinyon yo."
+
+#: includes/class-rules.php:90
+#: includes/class-rules.php:109
+msgid "Director certifications"
+msgstr "Deklarasyon ekri direktè yo"
+
+#: includes/class-rules.php:90
+#: includes/class-rules.php:109
+msgid "Each director's written certification after election."
+msgstr "Deklarasyon ekri chak direktè siyen apre eleksyon li."
+
+#: includes/class-rules.php:91
+#: includes/class-rules.php:110
+msgid "Contracts with directors, officers or their businesses"
+msgstr "Kontra ak direktè, ofisye oswa biznis yo"
+
+#: includes/class-rules.php:91
+#: includes/class-rules.php:110
+msgid "Any contract with a director, an officer or their business."
+msgstr "Nenpòt kontra ak yon direktè, yon ofisye oswa biznis li."
+
+#: includes/class-rules.php:92
+#: includes/class-rules.php:111
+msgid "Conflict-of-interest contracts"
+msgstr "Kontra ki gen konfli enterè"
+
+#: includes/class-rules.php:92
+#: includes/class-rules.php:111
+msgid "Contracts where a director has a conflict of interest."
+msgstr "Kontra kote yon direktè gen yon konfli enterè."
+
+#: includes/class-rules.php:93
+msgid "Owners' meeting notices and agendas"
+msgstr "Avi ak lòd dijou reyinyon pwopriyetè yo"
+
+#: includes/class-rules.php:93
+msgid "Notices and agendas for owners' meetings."
+msgstr "Avi ak lòd dijou pou reyinyon pwopriyetè yo."
+
+#: includes/class-rules.php:94
+msgid "Board meeting notices, agendas and documents"
+msgstr "Avi, lòd dijou ak dokiman reyinyon konsèy administrasyon"
+
+#: includes/class-rules.php:94
+msgid "Notices, agendas and documents for board meetings."
+msgstr "Avi, lòd dijou ak dokiman pou reyinyon konsèy administrasyon an."
+
+#: includes/class-rules.php:95
+msgid "Inspection reports (milestone, structural, life safety)"
+msgstr "Rapò enspeksyon (milestone, estrikti, sekirite moun)"
+
+#: includes/class-rules.php:95
+msgid "Milestone, structural and life safety inspection reports."
+msgstr "Rapò enspeksyon milestone, estrikti ak sekirite moun."
+
+#: includes/class-rules.php:96
+msgid "Structural integrity reserve study (latest)"
+msgstr "Etid rezèv pou solidite estrikti a (dènye a)"
+
+#: includes/class-rules.php:96
+msgid "The latest structural integrity reserve study."
+msgstr "Dènye etid rezèv pou solidite estrikti a."
+
+#: includes/class-rules.php:97
+msgid "Building permits for ongoing or planned work"
+msgstr "Pèmi konstriksyon pou travay k ap fèt oswa ki planifye"
+
+#: includes/class-rules.php:97
+msgid "Permits for work that's going on or planned."
+msgstr "Pèmi pou travay k ap fèt oswa ki planifye."
+
+#: includes/class-rules.php:98
+msgid "Affidavits required by Chapter 718"
+msgstr "Afidavi Chapit 718 mande"
+
+#: includes/class-rules.php:98
+msgid "Affidavits that Chapter 718 asks the association to keep."
+msgstr "Afidavi Chapit 718 mande asosyasyon an kenbe."
+
+#: includes/class-rules.php:103
+msgid "Declaration of covenants and amendments"
+msgstr "Deklarasyon angajman ak amannman yo"
+
+#: includes/class-rules.php:103
+msgid "The covenants that bind every parcel, with every amendment."
+msgstr "Angajman ki mare chak parsèl, ak tout amannman yo."
+
+#: includes/class-rules.php:104
+msgid "The rules members follow. You can also post the record-keeping rules here."
+msgstr "Règ manm yo swiv. Ou ka pibliye règ pou jere dosye yo isit la tou."
+
+#: includes/class-rules.php:107
+msgid "Annual financial report"
+msgstr "Rapò finansye anyèl"
+
+#: includes/class-rules.php:107
+msgid "The yearly financial report."
+msgstr "Rapò finansye ane a."
+
+#: includes/class-rules.php:108
+msgid "Insurance policies"
+msgstr "Polis asirans"
+
+#: includes/class-rules.php:108
+msgid "Every current insurance policy the association holds."
+msgstr "Tout polis asirans asosyasyon an genyen kounye a."
+
+#: includes/class-rules.php:112
+msgid "Members' meeting notices and agendas"
+msgstr "Avi ak lòd dijou reyinyon manm yo"
+
+#: includes/class-rules.php:112
+msgid "Notices and agendas for members' meetings."
+msgstr "Avi ak lòd dijou pou reyinyon manm yo."
+
+#: includes/class-rules.php:113
+msgid "Board meeting notices and agendas"
+msgstr "Avi ak lòd dijou reyinyon konsèy administrasyon"
+
+#: includes/class-rules.php:113
+msgid "Notices and agendas for board meetings."
+msgstr "Avi ak lòd dijou pou reyinyon konsèy administrasyon an."
+
+#: includes/class-rules.php:168
+msgid "Governing documents"
+msgstr "Dokiman fondamantal"
+
+#: includes/class-rules.php:169
+msgid "Meetings and minutes"
+msgstr "Reyinyon ak pwosè-vèbal"
+
+#: includes/class-rules.php:170
+msgid "Money and contracts"
+msgstr "Lajan ak kontra"
+
+#: includes/class-rules.php:172
+msgid "Building safety"
+msgstr "Sekirite bilding nan"
+
+#: includes/class-rules.php:204
+msgid "Board meeting on special assessments or use rules"
+msgstr "Reyinyon konsèy sou kotizasyon espesyal oswa règ itilizasyon"
+
+#: includes/class-rules.php:204
+msgid "Board meeting on special assessments or unit-use rules"
+msgstr "Reyinyon konsèy sou kotizasyon espesyal oswa règ itilizasyon inite yo"
+
+#: includes/class-rules.php:205
+msgid "Emergency board meeting"
+msgstr "Reyinyon ijans konsèy administrasyon"
+
+#: includes/class-rules.php:206
+msgid "Annual owners' meeting"
+msgstr "Reyinyon anyèl pwopriyetè yo"
+
+#: includes/class-rules.php:207
+msgid "Other owners' meeting"
+msgstr "Lòt reyinyon pwopriyetè"
+
+#: includes/class-rules.php:208
+msgid "Budget meeting"
+msgstr "Reyinyon sou bidjè"
+
+#: includes/class-rules.php:209
+msgid "Committee meeting"
+msgstr "Reyinyon komite"
+
+#: includes/class-rules.php:210
+msgid "Members' meeting"
+msgstr "Reyinyon manm yo"
+
+#: includes/class-setup.php:42
+msgid "Associations like yours must keep these records on a website or app, with a page only owners can open. CondoClock gives you both."
+msgstr "Asosyasyon tankou pa w la dwe kenbe dosye sa yo sou yon sit entènèt oswa yon aplikasyon, ak yon paj se pwopriyetè sèlman ki ka louvri. CondoClock ba ou toude."
+
+#: includes/class-setup.php:43
+msgid "Your association is under the size where the website rule applies. Many smaller associations use CondoClock anyway, so owners always know where to look."
+msgstr "Asosyasyon ou a pi piti pase gwosè kote règ sit entènèt la aplike. Anpil ti asosyasyon itilize CondoClock kanmenm, konsa pwopriyetè yo toujou konnen ki kote pou yo gade."
+
+#: includes/class-setup.php:78
+msgid "Owners' Records"
+msgstr "Dosye pwopriyetè yo"
+
+#. translators: %s: the page's current title.
+#: includes/class-setup.php:202
+#, php-format
+msgid "Your notices page is now called \"%s\". Owners look for \"Notices\", so we suggest keeping that title."
+msgstr "Paj avi ou a rele \"%s\" kounye a. Pwopriyetè yo chèche \"Avi\", kidonk nou konseye ou kenbe tit sa a."
+
+#: includes/class-setup.php:220
+msgid "Please fill in the name and a number of units between 1 and 100,000."
+msgstr "Tanpri ranpli non an ak yon kantite inite ant 1 ak 100 000."
+
+#: includes/class-setup.php:273
+msgid "Pages"
+msgstr "Paj"
+
+#: includes/class-setup.php:310
+msgid "Let's set up your association"
+msgstr "Ann konfigire asosyasyon ou a"
+
+#: includes/class-setup.php:313
+msgid "Condominium association (Chapter 718)"
+msgstr "Asosyasyon kondominyòm (Chapit 718)"
+
+#: includes/class-setup.php:314
+msgid "Homeowners' association (Chapter 720)"
+msgstr "Asosyasyon pwopriyetè kay (Chapit 720)"
+
+#: includes/class-setup.php:315
+msgid "Number of units"
+msgstr "Kantite inite"
+
+#: includes/class-setup.php:315
+msgid "Number of parcels"
+msgstr "Kantite parsèl"
+
+#: includes/class-setup.php:316
+msgid "Does the condominium contain timeshare units?"
+msgstr "Èske kondominyòm nan gen inite an tan pataje (timeshare)?"
+
+#: includes/class-setup.php:323
+msgid "Next"
+msgstr "Swivan"
+
+#: includes/class-setup.php:326
+msgid "Your owners' pages"
+msgstr "Paj pwopriyetè ou yo"
+
+#: includes/class-setup.php:327
+msgid "We'll create two pages: Owners' Records, which only owners can open, and Notices, for upcoming meetings."
+msgstr "N ap kreye de paj: Dosye pwopriyetè yo, se pwopriyetè sèlman ki ka louvri l, ak Avi, pou reyinyon k ap vini yo."
+
+#: includes/class-setup.php:330
+msgid "Your pages already exist, so we will keep them and make no copies."
+msgstr "Paj ou yo egziste deja, kidonk n ap kenbe yo e nou p ap fè kopi."
+
+#: includes/class-setup.php:332
+msgid "Add Notices to the main menu"
+msgstr "Ajoute Avi nan meni prensipal la"
+
+#: includes/class-setup.php:333
+#: includes/class-setup.php:379
+msgid "Back"
+msgstr "Retounen"
+
+#: includes/class-setup.php:333
+msgid "Create my pages"
+msgstr "Kreye paj mwen yo"
+
+#. translators: 1: link to Owners' Records page, 2: link to Notices page.
+#: includes/class-setup.php:341
+#, php-format
+msgid "Your pages are ready: %1$s and %2$s."
+msgstr "Paj ou yo pare: %1$s ak %2$s."
+
+#: includes/class-setup.php:346
+msgid "Notices is in your main menu."
+msgstr "Avi nan meni prensipal ou a kounye a."
+
+#. translators: %s: Notices page address.
+#: includes/class-setup.php:353
+#, php-format
+msgid "Your theme has no menu yet. To link Notices from your front page, open Appearance, then Menus or Editor, add a menu and put the Notices page in it, or add a button or link to %s on your front page."
+msgstr "Tèm ou a poko gen meni. Pou mete yon lyen pou Avi sou paj dakèy ou, louvri Aparans, apre sa Meni oswa Editè, ajoute yon meni epi mete paj Avi a ladan l, oswa ajoute yon bouton oswa yon lyen pou %s sou paj dakèy ou."
+
+#: includes/class-setup.php:360
+msgid "Pick a look"
+msgstr "Chwazi yon aparans"
+
+#: includes/class-setup.php:370
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/class-setup.php:379
+msgid "Go to my records"
+msgstr "Ale nan dosye mwen yo"
+
+#: includes/class-status.php:117
+msgid "Your server shows private files to anyone with the link"
+msgstr "Sèvè ou a montre fichye prive yo bay nenpòt moun ki gen lyen an"
+
+#: includes/class-status.php:118
+msgid "Your host ignores the protection file CondoClock puts in the folder, which is common on nginx. Ask your host to add this rule to the site's nginx settings, then run the test again:"
+msgstr "Ebèjman ou a pa respekte fichye pwoteksyon CondoClock mete nan katab la, sa rive souvan ak nginx. Mande ebèjman ou a ajoute règ sa a nan paramèt nginx sit la, apre sa refè tès la:"
+
+#: includes/class-status.php:128
+msgid "Checks that keep owners' records private and on time."
+msgstr "Verifikasyon ki kenbe Dosye pwopriyetè yo prive e alè."
+
+#. translators: %s: date and time of the test.
+#. translators: %d: HTTP status code, 0 when the site could not reach itself.
+#: includes/class-status.php:136
+#: includes/class-status.php:139
+#: includes/class-status.php:141
+#: includes/class-status.php:144
+msgid "Private files"
+msgstr "Fichye prive"
+
+#: includes/class-status.php:136
+msgid "Not tested yet."
+msgstr "Poko teste."
+
+#. translators: %s: date and time of the test.
+#: includes/class-status.php:139
+#, php-format
+msgid "Protected. A visitor without a login gets \"not allowed\". Tested %s."
+msgstr "Pwoteje. Yon vizitè ki pa konekte resevwa \"pa otorize\". Teste %s."
+
+#: includes/class-status.php:141
+msgid "Open to anyone with the link. See the steps above."
+msgstr "Ouvè pou nenpòt moun ki gen lyen an. Gade etap ki anwo yo."
+
+#. translators: %d: HTTP status code, 0 when the site could not reach itself.
+#: includes/class-status.php:144
+#, php-format
+msgid "The site could not test itself (answer %d). Files are still only sent to logged-in owners through CondoClock."
+msgstr "Sit la pa t ka teste tèt li (repons %d). Kanmenm, CondoClock voye fichye yo sèlman bay pwopriyetè ki konekte."
+
+#. translators: %s: date of the rule table.
+#: includes/class-status.php:148
+msgid "Florida rules"
+msgstr "Règ Florid"
+
+#. translators: %s: date of the rule table.
+#: includes/class-status.php:148
+#, php-format
+msgid "Rules as of %s"
+msgstr "Règ yo jan yo ye nan dat %s"
+
+#. translators: 1: CondoClock version, 2: WordPress version, 3: PHP version.
+#: includes/class-status.php:150
+msgid "Versions"
+msgstr "Vèsyon"
+
+#. translators: 1: CondoClock version, 2: WordPress version, 3: PHP version.
+#: includes/class-status.php:150
+#, php-format
+msgid "CondoClock %1$s · WordPress %2$s · PHP %3$s"
+msgstr "CondoClock %1$s · WordPress %2$s · PHP %3$s"
+
+#. translators: %s: date and time of the next run.
+#: includes/class-status.php:156
+#: includes/class-status.php:158
+msgid "Daily check"
+msgstr "Verifikasyon chak jou"
+
+#. translators: %s: date and time of the next run.
+#: includes/class-status.php:156
+#, php-format
+msgid "Working. Next run %s."
+msgstr "Li mache. Pwochen fwa: %s."
+
+#. translators: %s: date and time of the next run.
+#: includes/class-status.php:156
+msgid "Working."
+msgstr "Li mache."
+
+#: includes/class-status.php:158
+msgid "WordPress's scheduled tasks are switched off on this site. Ask your host to add this line to the server's cron:"
+msgstr "Travay pwograme WordPress yo etenn sou sit sa a. Mande ebèjman ou a ajoute liy sa a nan cron sèvè a:"
+
+#: includes/class-status.php:158
+msgid "The daily check is running late, usually because the site gets few visits. Ask your host to add this line to the server's cron:"
+msgstr "Verifikasyon chak jou a an reta, souvan paske sit la pa resevwa anpil vizit. Mande ebèjman ou a ajoute liy sa a nan cron sèvè a:"
+
+#: includes/class-status.php:172
+msgid "Test file protection again"
+msgstr "Teste pwoteksyon fichye yo ankò"
+
+#. translators: date format for posted dates, see https://www.php.net/manual/datetime.format.php
+#: includes/functions.php:78
+msgctxt "short date"
+msgid "j M Y"
+msgstr "j M Y"
+
+#. translators: date and time format for deadlines, see https://www.php.net/manual/datetime.format.php
+#: includes/functions.php:89
+msgctxt "date and time"
+msgid "D j M Y, g:i a"
+msgstr "D j M Y, g:i a"
+
+#: blocks/notices/block.json
+msgctxt "block title"
+msgid "Meeting notices"
+msgstr "Avi reyinyon"
+
+#: blocks/notices/block.json
+msgctxt "block description"
+msgid "Upcoming meetings with their notice, agenda and documents, then past notices."
+msgstr "Reyinyon k ap vini yo ak avi, lòd dijou ak dokiman yo, apre sa ansyen avi yo."
+
+#: blocks/notices/block.json
+#: blocks/records/block.json
+msgctxt "block keyword"
+msgid "condo"
+msgstr "kondo"
+
+#: blocks/notices/block.json
+#: blocks/records/block.json
+msgctxt "block keyword"
+msgid "hoa"
+msgstr "asosyasyon"
+
+#: blocks/notices/block.json
+msgctxt "block keyword"
+msgid "meeting"
+msgstr "reyinyon"
+
+#: blocks/notices/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "avi"
+
+#: blocks/notices/block.json
+msgctxt "block keyword"
+msgid "agenda"
+msgstr "lòd dijou"
+
+#: blocks/records/block.json
+msgctxt "block title"
+msgid "Owners' records"
+msgstr "Dosye pwopriyetè yo"
+
+#: blocks/records/block.json
+msgctxt "block description"
+msgid "The association's records, shown only to logged-in owners."
+msgstr "Dosye asosyasyon an, se pwopriyetè ki konekte sèlman ki ka wè yo."
+
+#: blocks/records/block.json
+msgctxt "block keyword"
+msgid "owners"
+msgstr "pwopriyetè"
+
+#: blocks/records/block.json
+
+msgctxt "block keyword"
+msgid "records"
+msgstr "dosye"

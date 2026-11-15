@@ -1,0 +1,88 @@
+{
+  "state": "Florida",
+  "as_of": "2026-11-15",
+  "sources": [
+    "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0718/Sections/0718.111.html",
+    "https://www.flsenate.gov/Laws/Statutes/2026/718.112",
+    "https://www.flsenate.gov/Laws/Statutes/2026/720.303"
+  ],
+  "modes": {
+    "condo": {
+      "chapter": "718",
+      "list": "718.111(12)(g)2",
+      "threshold": 25,
+      "timeshare_exempt": true,
+      "record_days": 30,
+      "clock": "statute",
+      "groups": [
+        ["governing", "Governing documents", ["declaration", "bylaws", "articles", "rules"]],
+        ["meetings", "Meetings and minutes", ["minutes", "video"]],
+        ["money", "Money and contracts", ["contracts_bids", "budget", "financial", "director_cert", "director_contracts", "conflict"]],
+        ["notices", "Notices", ["owner_notices", "board_notices"]],
+        ["safety", "Building safety", ["inspections", "sirs", "permits", "affidavits"]]
+      ],
+      "categories": [
+        {"key": "declaration", "letter": "a", "name": "Declaration of condominium and amendments", "hint": "The document that created the condominium, with every amendment."},
+        {"key": "bylaws", "letter": "b", "name": "Bylaws and amendments", "hint": "How the association is run: officers, meetings and voting."},
+        {"key": "articles", "letter": "c", "name": "Articles of incorporation and amendments", "hint": "The papers filed with the state that created the association."},
+        {"key": "rules", "letter": "d", "name": "Rules of the association", "hint": "The house rules owners and tenants follow."},
+        {"key": "minutes", "letter": "e", "name": "Approved board minutes, last 12 months", "hint": "Minutes the board approved in the last 12 months.", "rolling": true, "received_label": "approval"},
+        {"key": "video", "letter": "f", "name": "Video recordings of video-conference meetings, last 12 months", "hint": "Links to recordings of meetings held by video, last 12 months.", "rolling": true, "link_only": true, "received_label": "meeting"},
+        {"key": "contracts_bids", "letter": "g", "name": "Current contracts and bids received in the past year", "hint": "Every current contract, and bids received in the last 12 months.", "rolling": true},
+        {"key": "budget", "letter": "h", "name": "Annual budget and proposed budget", "hint": "This year's budget and any proposed budget."},
+        {"key": "financial", "letter": "i", "name": "Annual financial report and monthly statements for meetings", "hint": "The yearly financial report, and statements shown at meetings."},
+        {"key": "director_cert", "letter": "j", "name": "Director certifications", "hint": "Each director's written certification after election."},
+        {"key": "director_contracts", "letter": "k", "name": "Contracts with directors, officers or their businesses", "hint": "Any contract with a director, an officer or their business."},
+        {"key": "conflict", "letter": "l", "name": "Conflict-of-interest contracts", "hint": "Contracts where a director has a conflict of interest."},
+        {"key": "owner_notices", "letter": "m", "name": "Owners' meeting notices and agendas", "hint": "Notices and agendas for owners' meetings.", "meeting_rules": true},
+        {"key": "board_notices", "letter": "n", "name": "Board meeting notices, agendas and documents", "hint": "Notices, agendas and documents for board meetings.", "meeting_rules": true},
+        {"key": "inspections", "letter": "o", "name": "Inspection reports (milestone, structural, life safety)", "hint": "Milestone, structural and life safety inspection reports."},
+        {"key": "sirs", "letter": "p", "name": "Structural integrity reserve study (latest)", "hint": "The latest structural integrity reserve study."},
+        {"key": "permits", "letter": "q", "name": "Building permits for ongoing or planned work", "hint": "Permits for work that's going on or planned."},
+        {"key": "affidavits", "letter": "r", "name": "Affidavits required by Chapter 718", "hint": "Affidavits that Chapter 718 asks the association to keep."}
+      ],
+      "meetings": [
+        {"type": "board", "name": "Board meeting", "notice": "48h", "vote": null, "extra": ["property"], "source": "718.112(2)(c)1, 718.111(12)(g)2.n"},
+        {"type": "board_special", "name": "Board meeting on special assessments or unit-use rules", "notice": "14d", "vote": null, "extra": ["property", "affidavit"], "source": "718.112(2)(c)1, 718.112(2)(c)3"},
+        {"type": "emergency", "name": "Emergency board meeting", "notice": null, "vote": null, "extra": [], "source": "718.112(2)(c)1"},
+        {"type": "annual", "name": "Annual owners' meeting", "notice": "14d", "vote": "7d", "extra": ["property", "affidavit"], "source": "718.111(12)(g)2.m, 718.112(2)(d)"},
+        {"type": "owners", "name": "Other owners' meeting", "notice": "14d", "vote": "7d", "extra": [], "source": "718.111(12)(g)2.m"},
+        {"type": "budget", "name": "Budget meeting", "notice": "14d", "vote": null, "extra": ["budget_delivered", "affidavit"], "source": "718.112(2)(e)1"},
+        {"type": "committee", "name": "Committee meeting", "notice": "48h", "vote": null, "extra": [], "source": "718.112(2)(c)"}
+      ]
+    },
+    "hoa": {
+      "chapter": "720",
+      "list": "720.303(4)(b)1",
+      "threshold": 100,
+      "timeshare_exempt": false,
+      "record_days": null,
+      "clock": "target",
+      "groups": [
+        ["governing", "Governing documents", ["articles", "bylaws", "declaration", "rules"]],
+        ["money", "Money and contracts", ["contracts_bids", "budget", "financial", "insurance", "director_cert", "director_contracts", "conflict"]],
+        ["notices", "Notices", ["owner_notices", "board_notices"]]
+      ],
+      "categories": [
+        {"key": "articles", "letter": "a", "name": "Articles of incorporation and amendments", "hint": "The papers filed with the state that created the association."},
+        {"key": "bylaws", "letter": "b", "name": "Bylaws and amendments", "hint": "How the association is run: officers, meetings and voting."},
+        {"key": "declaration", "letter": "c", "name": "Declaration of covenants and amendments", "hint": "The covenants that bind every parcel, with every amendment."},
+        {"key": "rules", "letter": "d", "name": "Rules of the association", "hint": "The rules members follow. You can also post the record-keeping rules here."},
+        {"key": "contracts_bids", "letter": "e", "name": "Current contracts and bids received in the past year", "hint": "Every current contract, and bids received in the last 12 months.", "rolling": true},
+        {"key": "budget", "letter": "f", "name": "Annual budget and proposed budget", "hint": "This year's budget and any proposed budget."},
+        {"key": "financial", "letter": "g", "name": "Annual financial report", "hint": "The yearly financial report."},
+        {"key": "insurance", "letter": "h", "name": "Insurance policies", "hint": "Every current insurance policy the association holds."},
+        {"key": "director_cert", "letter": "i", "name": "Director certifications", "hint": "Each director's written certification after election."},
+        {"key": "director_contracts", "letter": "j", "name": "Contracts with directors, officers or their businesses", "hint": "Any contract with a director, an officer or their business."},
+        {"key": "conflict", "letter": "k", "name": "Conflict-of-interest contracts", "hint": "Contracts where a director has a conflict of interest."},
+        {"key": "owner_notices", "letter": "l", "name": "Members' meeting notices and agendas", "hint": "Notices and agendas for members' meetings.", "meeting_rules": true},
+        {"key": "board_notices", "letter": "m", "name": "Board meeting notices and agendas", "hint": "Notices and agendas for board meetings.", "meeting_rules": true}
+      ],
+      "meetings": [
+        {"type": "board", "name": "Board meeting", "notice": "48h", "vote": null, "extra": [], "source": "720.303(2)(c), 720.303(4)(b)1.m"},
+        {"type": "board_special", "name": "Board meeting on special assessments or use rules", "notice": "14d", "vote": null, "extra": [], "source": "720.303(2)(c)2"},
+        {"type": "members", "name": "Members' meeting", "notice": "14d", "vote": "7d", "extra": [], "source": "720.303(4)(b)1.l"}
+      ]
+    }
+  }
+}
